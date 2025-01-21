@@ -1,0 +1,33 @@
+.S_GalleryGrid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-100);
+  box-sizing: border-box;
+}
+
+.S_Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--text-inverted);
+}
+.S_StyleguideHero {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../images/effect.png');
+}
+
+.S_StyleguideGrid {
+  display: grid;
+  grid-template-columns: 2fr 7fr;
+  gap: var(--space-100);
+  padding: var(--space-200);
+}
+
+.O_StyleguideMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: var(--space-100);
+}
