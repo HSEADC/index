@@ -1,0 +1,1 @@
+import"./index.css";import $ from"jquery";import"datatables.net";import data from"./data/data.json";window.$=window.jQuery=$,$("#example").DataTable({data,columns:[{data:"name"},{data:"position"},{data:"office"},{data:"age"},{data:"start_date"},{data:"salary"}]});

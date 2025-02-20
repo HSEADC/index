@@ -67,18 +67,18 @@ module.exports = {
         generator: {
           filename: 'fonts/[name].[ext]'
         }
-      },
-      {
-        test: /\.json$/,
-        type: 'asset/resource',
-        generator: {
-          filename: 'data/[name][ext]'
-        }
       }
     ]
   },
   // Plugins
   plugins: [
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': 'jquery',
+      'window.$': 'jquery'
+    }),
+
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css'

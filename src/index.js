@@ -1,6 +1,9 @@
+import data from './data/data.json'
+console.log(data) // Expect an array of objects
+
 import './index.css'
 import $ from 'jquery'
-import data from './data/data.json' // Direct JSON import
+import 'datatables.net'
 
 window.$ = window.jQuery = $
 
