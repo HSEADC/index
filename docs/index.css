@@ -132,7 +132,7 @@ html {
 
 body {
   background-color: var(--background-primary);
-  background-image: url(./images/57877e59611de7db208f.png);
+  background-image: url(images/57877e59611de7db208f.png);
   background-repeat: repeat;
   background-size: 200px;
 }
@@ -281,12 +281,12 @@ body {
 
 @font-face {
   font-family: 'Montreal Regular';
-  src: url(./fonts/NeueMontreal-Regular..ttf) format('truetype');
+  src: url(fonts/NeueMontreal-Regular..ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Montreal Bold';
-  src: url(./fonts/NeueMontreal-Bold..ttf) format('truetype');
+  src: url(fonts/NeueMontreal-Bold..ttf) format('truetype');
 }
 
 body {
@@ -294,23 +294,9 @@ body {
   background-color: var(--background-primary);
 }
 
-.container {
-  width: 100%; /* Define parent width */
-  height: 10vh; /* Set height to 10% of the viewport height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.responsive-svg {
-  width: 100%; /* Take full width of parent */
-  height: 100%; /* Take full height of parent */
-  display: block; /* Prevent unwanted spacing */
-}
-
 @font-face {
   font-family: 'Min Icon VF';
-  src: url(./fonts/MinIconVF..ttf) format('truetype');
+  src: url(fonts/MinIconVF..ttf) format('truetype');
   font-weight: 100 900;
   font-style: normal;
 }
@@ -3244,23 +3230,9 @@ i.iBrandApple::before {
   content: '\F8FF';
 }
 
-.container {
-  width: 100%; /* Define parent width */
-  height: 10vh; /* Set height to 10% of the viewport height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.responsive-svg {
-  width: 100%; /* Take full width of parent */
-  height: 100%; /* Take full height of parent */
-  display: block; /* Prevent unwanted spacing */
-}
-
 @font-face {
   font-family: 'Min Icon VF';
-  src: url(./fonts/MinIconVF..ttf) format('truetype');
+  src: url(fonts/MinIconVF..ttf) format('truetype');
   font-weight: 100 900;
   font-style: normal;
 }
@@ -6398,7 +6370,7 @@ html {
 
 body {
   background-color: var(--background-primary);
-  background-image: url(./images/57877e59611de7db208f.png);
+  background-image: url(images/57877e59611de7db208f.png);
   background-repeat: repeat;
   background-size: 200px;
 }
@@ -6547,12 +6519,12 @@ body {
 
 @font-face {
   font-family: 'Montreal Regular';
-  src: url(./fonts/NeueMontreal-Regular..ttf) format('truetype');
+  src: url(fonts/NeueMontreal-Regular..ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Montreal Bold';
-  src: url(./fonts/NeueMontreal-Bold..ttf) format('truetype');
+  src: url(fonts/NeueMontreal-Bold..ttf) format('truetype');
 }
 
 body {
@@ -6673,25 +6645,26 @@ body {
 .A_SmallBotton > .A_Body {
   display: flex;
   padding: var(--space-50) var(--space-50);
+  align-items: start;
+  justify-content: start;
 }
 
-.container {
-  width: 100%; /* Define parent width */
-  height: 10vh; /* Set height to 10% of the viewport height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.Filled {
+  background-color: var(--foreground-secondary);
+  border-radius: var(--radius-small);
+  color: var(--text-secondary);
+  width: 100%;
 }
 
-.responsive-svg {
-  width: 100%; /* Take full width of parent */
-  height: 100%; /* Take full height of parent */
-  display: block; /* Prevent unwanted spacing */
+.Inline {
+  background-color: none;
+  border: none;
+  color: var(--text-secondary);
 }
 
 @font-face {
   font-family: 'Min Icon VF';
-  src: url(./fonts/MinIconVF..ttf) format('truetype');
+  src: url(fonts/MinIconVF..ttf) format('truetype');
   font-weight: 100 900;
   font-style: normal;
 }
@@ -9625,23 +9598,12 @@ i.iBrandApple::before {
   content: '\F8FF';
 }
 
-.container {
-  width: 100%; /* Define parent width */
-  height: 10vh; /* Set height to 10% of the viewport height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.responsive-svg {
-  width: 100%; /* Take full width of parent */
-  height: 100%; /* Take full height of parent */
-  display: block; /* Prevent unwanted spacing */
+.M_InlineCell {
 }
 
 @font-face {
   font-family: 'Min Icon VF';
-  src: url(./fonts/MinIconVF..ttf) format('truetype');
+  src: url(fonts/MinIconVF..ttf) format('truetype');
   font-weight: 100 900;
   font-style: normal;
 }
@@ -12598,7 +12560,7 @@ i.iBrandApple::before {
 .O_EffectCard {
   display: flex;
   flex-direction: column;
-  background-image: url(./images/c195d7d4f7074f5c1cde.png);
+  background-image: url(images/c195d7d4f7074f5c1cde.png);
   background-position: center;
   background-position: 50% 50%;
   border-radius: var(--radius-large);
@@ -12648,6 +12610,26 @@ i.iBrandApple::before {
   flex-direction: column;
   justify-content: space-between;
   color: var(--text-inverted);
+}
+.S_StyleguideHero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/c195d7d4f7074f5c1cde.png);
+}
+
+.S_StyleguideGrid {
+  display: grid;
+  grid-template-columns: 2fr 7fr;
+  gap: var(--space-100);
+  padding: var(--space-200);
+}
+
+.O_StyleguideMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: var(--space-100);
 }
 
 html,
@@ -12784,7 +12766,7 @@ html {
 
 body {
   background-color: var(--background-primary);
-  background-image: url(./images/57877e59611de7db208f.png);
+  background-image: url(images/57877e59611de7db208f.png);
   background-repeat: repeat;
   background-size: 200px;
 }
@@ -12933,12 +12915,12 @@ body {
 
 @font-face {
   font-family: 'Montreal Regular';
-  src: url(./fonts/NeueMontreal-Regular..ttf) format('truetype');
+  src: url(fonts/NeueMontreal-Regular..ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Montreal Bold';
-  src: url(./fonts/NeueMontreal-Bold..ttf) format('truetype');
+  src: url(fonts/NeueMontreal-Bold..ttf) format('truetype');
 }
 
 body {
@@ -12959,3 +12941,5 @@ body {
   gap: var(--space-100);
   padding: var(--space-0) var(--space-200) var(--space-200) var(--space-200);
 }
+
+

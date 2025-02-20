@@ -6,10 +6,11 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const webpack = require('webpack')
 const path = require('path')
 
+//Экспорт
+
 module.exports = {
   entry: {
-    index: './src/index.js',
-    swiper: './src/scripts/swiper.js'
+    index: './src/index.js' // Removed swiper entry
   },
   output: {
     filename: '[name].js',
@@ -66,20 +67,27 @@ module.exports = {
         generator: {
           filename: 'fonts/[name].[ext]'
         }
+      },
+      {
+        test: /\.json$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'data/[name][ext]'
+        }
       }
     ]
   },
+  //Плагины
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css'
     }),
 
-    // Главная
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['index', 'swiper']
+      chunks: ['index'] // Removed 'swiper' from chunks
     }),
 
     new HtmlWebpackPlugin({

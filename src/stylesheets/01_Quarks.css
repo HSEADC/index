@@ -1,17 +1,3 @@
-.container {
-  width: 100%; /* Define parent width */
-  height: 10vh; /* Set height to 10% of the viewport height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.responsive-svg {
-  width: 100%; /* Take full width of parent */
-  height: 100%; /* Take full height of parent */
-  display: block; /* Prevent unwanted spacing */
-}
-
 @font-face {
   font-family: 'Min Icon VF';
   src: url('../font/MinIconVF.ttf') format('truetype');

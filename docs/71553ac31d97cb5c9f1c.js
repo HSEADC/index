@@ -1,0 +1,1 @@
+import"./index.css";import $ from"jquery";window.$=window.jQuery=$,$(document).ready((function(){$.ajax({url:"./data.json",method:"GET",dataType:"json",success:function(a){$("#example").DataTable({data:a,columns:[{data:"name"},{data:"position"},{data:"office"},{data:"age"},{data:"start_date"},{data:"salary"}]})},error:function(a,t,o){console.error("Error fetching data:",o)}})}));
