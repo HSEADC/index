@@ -10,7 +10,7 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    index: './src/index.js' // Removed swiper entry
+    index: './src/index.js'
   },
   output: {
     filename: '[name].js',
