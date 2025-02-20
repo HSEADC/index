@@ -2,12 +2,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin') // Import the plugin
 
 const webpack = require('webpack')
 const path = require('path')
 
-//Экспорт
-
+// Export
 module.exports = {
   entry: {
     index: './src/index.js'
@@ -77,7 +77,7 @@ module.exports = {
       }
     ]
   },
-  //Плагины
+  // Plugins
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].css',
@@ -137,7 +137,14 @@ module.exports = {
         template_filename: '*',
         priority: 'replace'
       }
-    ])
+    ]),
+
+    // CopyWebpackPlugin configuration
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'src/data', to: 'data' } // Copies src/data -> docs/data
+      ]
+    })
   ],
   optimization: {
     // minimizer: [new CssMinimizerPlugin()]
