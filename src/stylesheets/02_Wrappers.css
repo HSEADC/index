@@ -12,12 +12,11 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: var(--space-100);
-  background-color: var(--foreground-secondary);
   border-radius: var(--radius-small);
 }
 .W_NavigationLinks {
   display: flex;
+  flex-grow: 1;
   align-items: center;
   justify-content: center;
   padding: var(--space-100);

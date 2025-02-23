@@ -1,0 +1,21 @@
+.dt-length {
+  display: flex;
+  padding: var(--space-200);
+  justify-content: space-between;
+}
+
+.dt-search {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-200);
+  justify-content: space-between;
+}
+
+.sorting_1 {
+  font-size: 16vw;
+  background-color: brown;
+}
+.dt-container {
+  height: 100%;
+  background-color: brown;
+}

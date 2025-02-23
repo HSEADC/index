@@ -280,16 +280,11 @@ body {
 }
 
 @font-face {
-  font-family: 'Montreal Regular';
-  src: url('../font/NeueMontreal-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Montreal Bold';
-  src: url('../font/NeueMontreal-Bold.ttf') format('truetype');
+  font-family: 'Inter Tight';
+  src: url('../font/InterTight-VariableFont_wght.ttf') format('truetype');
 }
 
 body {
-  font-family: 'Montreal Regular';
+  font-family: 'Inter Tight';
   background-color: var(--background-primary);
 }
