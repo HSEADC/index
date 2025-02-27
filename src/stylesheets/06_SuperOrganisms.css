@@ -1,4 +1,6 @@
 .S_Hero {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
 }

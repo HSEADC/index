@@ -70,3 +70,23 @@
   border: 1px solid var(--stroke-ternitary);
   padding: var(--space-200);
 }
+.dt-length {
+}
+#dt-length-0 {
+}
+
+select.dt-input option {
+  padding: 10px; /* Add padding to options */
+  background-color: #fff; /* Change the background color of options */
+  color: #333; /* Change the text color of options */
+}
+
+select.dt-input {
+  width: 100px; /* Adjust the width as needed */
+  padding: 5px; /* Add some padding for better appearance */
+  font-size: 16px; /* Change the font size */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Round the corners */
+  background-color: #f9f9f9; /* Change the background color */
+  color: #333; /* Change the text color */
+}
