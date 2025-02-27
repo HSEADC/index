@@ -4,69 +4,79 @@
     "country": "United Kingdom",
     "program": "MA Digital Direction",
     "portfolios": 347,
-    "qs_ranking": 1
+    "qs_ranking": 1,
+    "image": "image1.jpg"
   },
   {
     "name": "Parsons School of Design",
     "country": "United States",
     "program": "BFA Communication Design",
     "portfolios": 512,
-    "qs_ranking": 2
+    "qs_ranking": 2,
+    "image": "image1.jpg"
   },
   {
     "name": "Rhode Island School of Design (RISD)",
     "country": "United States",
     "program": "BFA Graphic Design",
     "portfolios": 289,
-    "qs_ranking": 3
+    "qs_ranking": 3,
+    "image": "image1.jpg"
   },
   {
     "name": "Politecnico di Milano",
     "country": "Italy",
     "program": "Master in Communication Design",
     "portfolios": 198,
-    "qs_ranking": 4
+    "qs_ranking": 4,
+    "image": "image1.jpg"
   },
   {
     "name": "University of the Arts London (UAL)",
     "country": "United Kingdom",
     "program": "BA Graphic Design",
     "portfolios": 423,
-    "qs_ranking": 5
+    "qs_ranking": 5,
+    "image": "image1.jpg"
   },
   {
     "name": "ArtCenter College of Design",
     "country": "United States",
     "program": "BS Interaction Design",
     "portfolios": 165,
-    "qs_ranking": 6
+    "qs_ranking": 6,
+    "image": "image1.jpg"
   },
   {
     "name": "Aalto University",
     "country": "Finland",
     "program": "Master's in Collaborative and Industrial Design",
     "portfolios": 234,
-    "qs_ranking": 7
+    "qs_ranking": 7,
+    "image": "image1.jpg"
   },
   {
     "name": "Design Academy Eindhoven",
     "country": "Netherlands",
     "program": "BA Graphic Design",
     "portfolios": 121,
-    "qs_ranking": 8
+    "qs_ranking": 8,
+    "image": "image1.jpg"
   },
   {
     "name": "Savannah College of Art and Design (SCAD)",
     "country": "United States",
     "program": "BFA Visual Communication",
     "portfolios": 376,
-    "qs_ranking": 9
+    "qs_ranking": 9,
+    "image": "image1.jpg"
   },
   {
     "name": "Pratt Institute",
     "country": "United States",
     "program": "BFA Communication Design",
     "portfolios": 254,
-    "qs_ranking": 10
+    "qs_ranking": 10,
+    "image": "image1.jpg"
   }
 ]

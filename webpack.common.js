@@ -2,12 +2,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
-const CopyWebpackPlugin = require('copy-webpack-plugin') // Import the plugin
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 const webpack = require('webpack')
 const path = require('path')
 
-// Export
 module.exports = {
   entry: {
     index: './src/index.js'
@@ -30,6 +29,21 @@ module.exports = {
           }
         }
       },
+
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'images/datatable/',
+              publicPath: '/images/datatable/' // Add leading slash
+            }
+          }
+        ]
+      },
+
       {
         test: /\.(sa|sc|c)ss$/i,
         use: [
@@ -87,7 +101,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['index'] // Removed 'swiper' from chunks
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
@@ -141,9 +155,7 @@ module.exports = {
 
     // CopyWebpackPlugin configuration
     new CopyWebpackPlugin({
-      patterns: [
-        { from: 'src/data', to: 'data' } // Copies src/data -> docs/data
-      ]
+      patterns: [{ from: 'src/data', to: 'data' }]
     })
   ],
   optimization: {
