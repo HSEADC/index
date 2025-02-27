@@ -1,0 +1,4 @@
+.S_Hero {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,26 +1,72 @@
 [
   {
-    "name": "Tiger Nixon",
-    "position": "System Architect",
-    "office": "Edinburgh",
-    "age": 61,
-    "start_date": "2011/04/25",
-    "salary": "$320,800"
+    "name": "Royal College of Art (RCA)",
+    "country": "United Kingdom",
+    "program": "MA Digital Direction",
+    "portfolios": 347,
+    "qs_ranking": 1
   },
   {
-    "name": "Garrett Winters",
-    "position": "Accountant",
-    "office": "Tokyo",
-    "age": 63,
-    "start_date": "2011/07/25",
-    "salary": "$170,750"
+    "name": "Parsons School of Design",
+    "country": "United States",
+    "program": "BFA Communication Design",
+    "portfolios": 512,
+    "qs_ranking": 2
   },
   {
-    "name": "Ashton Cox",
-    "position": "Junior Technical Author",
-    "office": "San Francisco",
-    "age": 66,
-    "start_date": "2009/01/12",
-    "salary": "$86,000"
+    "name": "Rhode Island School of Design (RISD)",
+    "country": "United States",
+    "program": "BFA Graphic Design",
+    "portfolios": 289,
+    "qs_ranking": 3
+  },
+  {
+    "name": "Politecnico di Milano",
+    "country": "Italy",
+    "program": "Master in Communication Design",
+    "portfolios": 198,
+    "qs_ranking": 4
+  },
+  {
+    "name": "University of the Arts London (UAL)",
+    "country": "United Kingdom",
+    "program": "BA Graphic Design",
+    "portfolios": 423,
+    "qs_ranking": 5
+  },
+  {
+    "name": "ArtCenter College of Design",
+    "country": "United States",
+    "program": "BS Interaction Design",
+    "portfolios": 165,
+    "qs_ranking": 6
+  },
+  {
+    "name": "Aalto University",
+    "country": "Finland",
+    "program": "Master's in Collaborative and Industrial Design",
+    "portfolios": 234,
+    "qs_ranking": 7
+  },
+  {
+    "name": "Design Academy Eindhoven",
+    "country": "Netherlands",
+    "program": "BA Graphic Design",
+    "portfolios": 121,
+    "qs_ranking": 8
+  },
+  {
+    "name": "Savannah College of Art and Design (SCAD)",
+    "country": "United States",
+    "program": "BFA Visual Communication",
+    "portfolios": 376,
+    "qs_ranking": 9
+  },
+  {
+    "name": "Pratt Institute",
+    "country": "United States",
+    "program": "BFA Communication Design",
+    "portfolios": 254,
+    "qs_ranking": 10
   }
 ]

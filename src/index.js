@@ -1,5 +1,5 @@
 import data from './data/data.json'
-console.log(data) // Expect an array of objects
+import './stylesheets/00_DesignSystem.css'
 
 import './index.css'
 import $ from 'jquery'
@@ -7,14 +7,13 @@ import 'datatables.net'
 
 window.$ = window.jQuery = $
 
-$('#example').DataTable({
+$('#main').DataTable({
   data: data,
   columns: [
     { data: 'name' },
-    { data: 'position' },
-    { data: 'office' },
-    { data: 'age' },
-    { data: 'start_date' },
-    { data: 'salary' }
+    { data: 'country' },
+    { data: 'program' },
+    { data: 'portfolios' },
+    { data: 'qs_ranking' }
   ]
 })

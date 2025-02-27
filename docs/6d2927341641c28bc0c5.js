@@ -1,0 +1,1 @@
+import data from"./data/data.json";import"./stylesheets/00_DesignSystem.css";import"./index.css";import $ from"jquery";import"datatables.net";window.$=window.jQuery=$,$("#main").DataTable({data,columns:[{data:"name"},{data:"country"},{data:"program"},{data:"portfolios"},{data:"qs_ranking"}]});
