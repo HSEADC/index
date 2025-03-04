@@ -60,7 +60,7 @@
 .dt-search {
   display: flex;
   flex-direction: column;
-  padding: var(--space-0) var(--space-200);
+  padding: var(--space-200) var(--space-200);
 }
 
 .dt-search > label {
@@ -73,14 +73,30 @@
   padding: var(--space-200);
 }
 .dt-length {
+  padding: var(--space-100) var(--space-200);
 }
 #dt-length-0 {
 }
+.dt-paging {
+  padding: var(--space-100) var(--space-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.dt-paging-button {
+  background-color: var(--foreground-primary);
+  border: 1px solid var(--stroke-ternitary);
+  border-radius: var(--radius-max);
+}
 select.dt-input option {
   padding: 10px; /* Add padding to options */
   background-color: #fff; /* Change the background color of options */
   color: #333; /* Change the text color of options */
+}
+
+.dt-info {
+  padding: var(--space-100) var(--space-200);
 }
 
 select.dt-input {

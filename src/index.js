@@ -1,8 +1,13 @@
+// src/index.js
+
 import $ from 'jquery'
 import 'datatables.net'
 import data from './data/data.json'
 import './stylesheets/00_DataTables.css'
 import '../src/index.css'
+
+// 1) Import your globe initializer
+import initGlobe from './scripts/globe.js'
 
 $(document).ready(function () {
   $('#main').DataTable({
@@ -20,12 +25,15 @@ $(document).ready(function () {
     language: {
       info: '_START_ - _END_ of _TOTAL_ entries',
       lengthMenu: 'Show _MENU_ entries',
-      search: '', // Removed label from dt-search
+      search: '',
       paginate: {
         previous: '‹',
         next: '›'
       }
     },
-    dom: '<"top"f>rt<"bottom"lip><"clear">'
+    dom: '<"top"f>rt<"bottom"lp><"clear">' // Removed dt-info from dom
   })
+
+  // 2) Initialize the globe
+  initGlobe()
 })

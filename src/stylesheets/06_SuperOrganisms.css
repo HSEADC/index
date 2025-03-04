@@ -1,0 +1,11 @@
+.S_Hero {
+  position: relative; /* Ensures the canvas is positioned relative to this container */
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: start;
+  padding-bottom: var(--space-200);
+}

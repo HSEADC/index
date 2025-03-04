@@ -5821,6 +5821,11 @@ terser@^5.10.0, terser@^5.15.1, terser@^5.26.0:
     commander "^2.20.0"
     source-map-support "~0.5.20"
 
+three@^0.174.0:
+  version "0.174.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.174.0.tgz#53f46d6fd27515231b2af321f798f1e0ecf3f905"
+  integrity sha512-p+WG3W6Ov74alh3geCMkGK9NWuT62ee21cV3jEnun201zodVF4tCE5aZa2U122/mkLRmhJJUQmLLW1BH00uQJQ==
+
 thunky@^1.0.2:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.1.0.tgz#5abaf714a9405db0504732bbccd2cedd9ef9537d"
