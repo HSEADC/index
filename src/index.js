@@ -5,6 +5,7 @@ import 'datatables.net'
 import data from './data/data.json'
 import './stylesheets/00_DataTables.css'
 import '../src/index.css'
+import initEvents from './scripts/events.js'
 
 // 1) Import your globe initializer
 import initGlobe from './scripts/globe.js'
@@ -36,4 +37,5 @@ $(document).ready(function () {
 
   // 2) Initialize the globe
   initGlobe()
+  initEvents()
 })

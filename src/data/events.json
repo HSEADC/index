@@ -1,0 +1,26 @@
+[
+  {
+    "DateStart": "2023-12-01",
+    "DateEnd": "2023-12-03",
+    "HostedOn": "https://design-conference.com",
+    "Description": "Annual Global Design Conference"
+  },
+  {
+    "DateStart": "2023-12-10",
+    "DateEnd": "2023-12-12",
+    "HostedOn": "https://ux-summit.org",
+    "Description": "UX Best Practices Summit"
+  },
+  {
+    "DateStart": "2024-01-15",
+    "DateEnd": "2024-01-17",
+    "HostedOn": "https://webdev-expo.net",
+    "Description": "Web Development Trends Expo"
+  },
+  {
+    "DateStart": "2024-02-01",
+    "DateEnd": "2024-02-03",
+    "HostedOn": "https://creative-coding.tech",
+    "Description": "Creative Coding Workshop"
+  }
+]

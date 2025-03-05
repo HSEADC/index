@@ -54,10 +54,13 @@
   height: var(--space-3000);
 }
 
-.O_FooterContainer {
+.O_EventsCard {
   display: flex;
-  flex-direction: row;
-  gap: var(--space-200);
-  padding: var(--space-200);
-  background-color: var(--background-dark);
+  justify-content: start;
+  align-items: end;
+  width: 100%;
+  flex-grow: 1;
+  background-color: var(--foreground-secondary);
+  flex-grow: 20;
+  padding: var(--space-100);
 }
