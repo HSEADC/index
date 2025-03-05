@@ -4,3 +4,16 @@
   padding: var(--space-0);
   gap: var(--space-100);
 }
+.W_EventsDates {
+  display: flex;
+  flex-direction: column;
+}
+
+.W_EventsContainer {
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: var(--space-100);
+}

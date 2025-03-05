@@ -35,7 +35,6 @@ $(document).ready(function () {
     dom: '<"top"f>rt<"bottom"lp><"clear">' // Removed dt-info from dom
   })
 
-  // 2) Initialize the globe
   initGlobe()
   initEvents()
 })
