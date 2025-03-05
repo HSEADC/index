@@ -7,7 +7,6 @@ import './stylesheets/00_DataTables.css'
 import '../src/index.css'
 import initEvents from './scripts/events.js'
 
-// 1) Import your globe initializer
 import initGlobe from './scripts/globe.js'
 
 $(document).ready(function () {
@@ -25,7 +24,7 @@ $(document).ready(function () {
     autoWidth: false,
     language: {
       info: '_START_ - _END_ of _TOTAL_ entries',
-      lengthMenu: 'Show _MENU_ entries',
+      lengthMenu: 'Show _MENU_',
       search: '',
       paginate: {
         previous: '‹',
