@@ -34,8 +34,8 @@ export default function initGlobe() {
   let targetX = 0
   let targetY = 0
 
-  const rotationSpeed = 0.0009
-  const followSpeed = 0.00009
+  const rotationSpeed = 0.0002
+  const followSpeed = 0.00002
 
   function onDocumentMouseMove(event) {
     mouseX = event.clientX - window.innerWidth / 2

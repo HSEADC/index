@@ -14,7 +14,7 @@
   width: 100%;
   flex-grow: 1;
   background-color: var(--foreground-secondary);
-  padding: var(--space-100);
+  padding: var(--space-100) var(--space-100) var(--space-200) var(--space-100);
   border-radius: var(--radius-large);
   gap: var(--space-100);
 

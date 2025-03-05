@@ -1,5 +1,3 @@
-// src/index.js
-
 import $ from 'jquery'
 import 'datatables.net'
 import data from './data/data.json'

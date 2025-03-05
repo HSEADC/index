@@ -36,4 +36,15 @@ export default function initEvents() {
     `
     container.appendChild(card)
   })
+
+  const link = document.createElement('a')
+  link.href = './articles.html'
+  link.target = '_blank'
+
+  const loadMoreButton = document.createElement('button')
+  loadMoreButton.classList.add('A_Button')
+  loadMoreButton.textContent = 'Предложить ивент'
+
+  link.appendChild(loadMoreButton)
+  container.appendChild(link)
 }
