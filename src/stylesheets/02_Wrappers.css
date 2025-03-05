@@ -1,0 +1,5 @@
+.W_NavContainer {
+  display: flex;
+  flex-direction: row;
+  padding: var(--space-0);
+}

@@ -74,11 +74,6 @@
   color: var(--blue-600);
 }
 
-.A_logo-small:hover {
-  transform: perspective(2000px) rotateY(35deg) rotateX(-10deg) scale(1.5);
-  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .A_logo-small > a {
   font-family: 'Montreal Bold', sans-serif;
   text-decoration: none;
