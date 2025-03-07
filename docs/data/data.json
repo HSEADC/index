@@ -13,7 +13,7 @@
     "program": "BFA Communication Design",
     "portfolios": 512,
     "qs_ranking": 2,
-    "image": "image1.jpg"
+    "image": "image2.jpg"
   },
   {
     "name": "Rhode Island School of Design (RISD)",
@@ -21,7 +21,7 @@
     "program": "BFA Graphic Design",
     "portfolios": 289,
     "qs_ranking": 3,
-    "image": "image1.jpg"
+    "image": "image3.jpg"
   },
   {
     "name": "Politecnico di Milano",
@@ -29,7 +29,7 @@
     "program": "Master in Communication Design",
     "portfolios": 198,
     "qs_ranking": 4,
-    "image": "image1.jpg"
+    "image": "image4.jpg"
   },
   {
     "name": "University of the Arts London (UAL)",
@@ -37,7 +37,7 @@
     "program": "BA Graphic Design",
     "portfolios": 423,
     "qs_ranking": 5,
-    "image": "image1.jpg"
+    "image": "image5.jpg"
   },
   {
     "name": "ArtCenter College of Design",
@@ -45,7 +45,7 @@
     "program": "BS Interaction Design",
     "portfolios": 165,
     "qs_ranking": 6,
-    "image": "image1.jpg"
+    "image": "image6.jpg"
   },
   {
     "name": "Aalto University",
@@ -53,7 +53,7 @@
     "program": "Master's in Collaborative and Industrial Design",
     "portfolios": 234,
     "qs_ranking": 7,
-    "image": "image1.jpg"
+    "image": "image7.jpg"
   },
   {
     "name": "Design Academy Eindhoven",
@@ -61,7 +61,7 @@
     "program": "BA Graphic Design",
     "portfolios": 121,
     "qs_ranking": 8,
-    "image": "image1.jpg"
+    "image": "image8.jpg"
   },
   {
     "name": "Savannah College of Art and Design (SCAD)",
@@ -69,7 +69,7 @@
     "program": "BFA Visual Communication",
     "portfolios": 376,
     "qs_ranking": 9,
-    "image": "image1.jpg"
+    "image": "image9.jpg"
   },
   {
     "name": "Pratt Institute",
@@ -77,6 +77,6 @@
     "program": "BFA Communication Design",
     "portfolios": 254,
     "qs_ranking": 10,
-    "image": "image1.jpg"
+    "image": "image10.jpg"
   }
 ]
