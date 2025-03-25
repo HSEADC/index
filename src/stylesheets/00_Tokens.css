@@ -135,13 +135,262 @@ html {
 
 body {
   background-color: var(--background-primary);
-  background-image: url('../images/noisetexture.png');
   background-repeat: repeat;
   background-size: 200px;
 }
 
 *:focus {
   outline: none;
+}
+
+:root {
+  --space-0: 0px;
+  --space-1: 1px;
+  --space-025: 2px;
+  --space-050: 4px;
+  --space-075: 6px;
+  --space-100: 8px;
+  --space-125: 10px;
+  --space-150: 12px;
+  --space-175: 14px;
+  --space-200: 16px;
+  --space-225: 18px;
+  --space-250: 20px;
+  --space-275: 22px;
+  --space-300: 24px;
+  --space-325: 26px;
+  --space-350: 28px;
+  --space-375: 30px;
+  --space-400: 32px;
+  --space-425: 34px;
+  --space-450: 36px;
+  --space-475: 38px;
+  --space-500: 40px;
+  --space-525: 42px;
+  --space-550: 44px;
+  --space-575: 46px;
+  --space-600: 48px;
+  --space-625: 50px;
+  --space-650: 52px;
+  --space-675: 54px;
+  --space-700: 56px;
+  --space-725: 58px;
+  --space-750: 60px;
+  --space-775: 62px;
+  --space-800: 64px;
+  --space-825: 66px;
+  --space-850: 68px;
+  --space-875: 70px;
+  --space-900: 72px;
+  --space-925: 74px;
+  --space-950: 76px;
+  --space-975: 78px;
+  --space-1000: 80px;
+  --space-1025: 82px;
+  --space-1050: 84px;
+  --space-1075: 86px;
+  --space-1100: 88px;
+  --space-1125: 90px;
+  --space-1150: 92px;
+  --space-1175: 94px;
+  --space-1200: 96px;
+  --space-1225: 98px;
+  --space-1250: 100px;
+  --space-1275: 102px;
+  --space-1300: 104px;
+  --space-1325: 106px;
+  --space-1350: 108px;
+  --space-1375: 110px;
+  --space-1400: 112px;
+  --space-1425: 114px;
+  --space-1450: 116px;
+  --space-1475: 118px;
+  --space-1500: 120px;
+  --space-1525: 122px;
+  --space-1550: 124px;
+  --space-1575: 126px;
+  --space-1600: 128px;
+  --space-1625: 130px;
+  --space-1650: 132px;
+  --space-1675: 134px;
+  --space-1700: 136px;
+  --space-1725: 138px;
+  --space-1750: 140px;
+  --space-1775: 142px;
+  --space-1800: 144px;
+  --space-1825: 146px;
+  --space-1850: 148px;
+  --space-1875: 150px;
+  --space-1900: 152px;
+  --space-1925: 154px;
+  --space-1950: 156px;
+  --space-1975: 158px;
+  --space-2000: 160px;
+  --space-2250: 180px;
+  --space-2500: 200px;
+  --space-2750: 220px;
+  --space-3000: 240px;
+  --space-3250: 260px;
+  --space-3500: 280px;
+  --space-3750: 300px;
+  --space-4000: 320px;
+}
+
+:root {
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --transparent: rgba(255, 255, 255, 0);
+}
+
+/*PRIMITIVE*/
+
+:root {
+  --dublin-50: rgb(240, 253, 241);
+  --dublin-100: rgb(220, 252, 223);
+  --dublin-200: rgb(187, 247, 194);
+  --dublin-300: rgb(134, 239, 147);
+  --dublin-400: rgb(60, 220, 80);
+  --dublin-500: rgb(34, 197, 55);
+  --dublin-600: rgb(22, 163, 40);
+  --dublin-700: rgb(21, 128, 35);
+  --dublin-800: rgb(22, 101, 33);
+  --dublin-900: rgb(20, 83, 30);
+  --dublin-950: rgb(5, 46, 12);
+
+  --greys-50: rgb(250, 250, 250);
+  --greys-100: rgb(245, 245, 245);
+  --greys-200: rgb(220, 220, 220);
+  --greys-300: rgb(189, 189, 189);
+  --greys-400: rgb(152, 152, 152);
+  --greys-500: rgb(124, 124, 124);
+  --greys-600: rgb(101, 101, 101);
+  --greys-700: rgb(82, 82, 82);
+  --greys-800: rgb(70, 70, 70);
+  --greys-900: rgb(61, 61, 61);
+  --greys-950: rgb(41, 41, 41);
+
+  --kyoto-50: rgb(255, 241, 241);
+  --kyoto-100: rgb(255, 224, 224);
+  --kyoto-200: rgb(255, 199, 199);
+  --kyoto-300: rgb(255, 160, 160);
+  --kyoto-400: rgb(255, 105, 105);
+  --kyoto-500: rgb(250, 80, 80);
+  --kyoto-600: rgb(231, 27, 27);
+  --kyoto-700: rgb(195, 18, 18);
+  --kyoto-800: rgb(161, 19, 19);
+  --kyoto-900: rgb(161, 19, 19);
+  --kyoto-950: rgb(133, 23, 23);
+
+  --texas-50: rgb(250, 250, 235);
+  --texas-100: rgb(245, 250, 200);
+  --texas-200: rgb(240, 245, 140);
+  --texas-300: rgb(240, 240, 85);
+  --texas-400: rgb(235, 225, 40);
+  --texas-500: rgb(220, 180, 20);
+  --texas-600: rgb(195, 130, 20);
+  --texas-700: rgb(160, 90, 20);
+  --texas-800: rgb(125, 65, 20);
+  --texas-900: rgb(100, 45, 25);
+  --texas-950: rgb(60, 30, 25);
+
+  --toronto-50: rgb(242, 249, 253);
+  --toronto-100: rgb(229, 241, 249);
+  --toronto-200: rgb(197, 227, 242);
+  --toronto-300: rgb(140, 200, 230);
+  --toronto-400: rgb(87, 176, 217);
+  --toronto-500: rgb(50, 162, 197);
+  --toronto-600: rgb(34, 145, 167);
+  --toronto-700: rgb(29, 118, 135);
+  --toronto-800: rgb(28, 104, 112);
+  --toronto-900: rgb(27, 88, 91);
+  --toronto-950: rgb(23, 64, 65);
+}
+
+/*SEMANTIC*/
+:root {
+  --background-primary: var(--greys-50);
+  --background-secondary: var(--greys-100);
+  --background-ternitary: var(--greys-200);
+
+  --e-1-ambient: rgba(41, 41, 41, 0.04);
+  --e-1-key: rgba(61, 61, 61, 0.08);
+  --e-2-ambient: rgba(41, 41, 41, 0.08);
+  --e-2-key: rgba(61, 61, 61, 0.12);
+  --e-3-ambient: rgba(41, 41, 41, 0.1);
+  --e-3-key: rgba(61, 61, 61, 0.14);
+
+  --foreground-dublin-disabled: var(--dublin-200);
+  --foreground-dublin-focus: var(--dublin-300);
+  --foreground-dublin-hover: var(--dublin-300);
+  --foreground-dublin-rest: var(--dublin-400);
+
+  --foreground-inverted-disabled: var(--greys-700);
+  --foreground-inverted-focus: var(--greys-900);
+  --foreground-inverted-hover: var(--greys-900);
+  --foreground-inverted-rest: var(--greys-950);
+
+  --foreground-kyoto-disabled: var(--kyoto-200);
+  --foreground-kyoto-focus: var(--kyoto-400);
+  --foreground-kyoto-hover: var(--kyoto-400);
+  --foreground-kyoto-rest: var(--kyoto-500);
+
+  --foreground-primary-disabled: var(--greys-100);
+  --foreground-primary-focus: var(--greys-50);
+  --foreground-primary-hover: var(--greys-50);
+  --foreground-primary-rest: var(--base-white);
+
+  --foreground-texas-disabled: var(--texas-50);
+  --foreground-texas-focus: var(--texas-100);
+  --foreground-texas-hover: var(--texas-100);
+  --foreground-texas-rest: var(--texas-200);
+
+  --foreground-toronto-disabled: var(--toronto-200);
+  --foreground-toronto-focus: var(--toronto-300);
+  --foreground-toronto-hover: var(--toronto-300);
+  --foreground-toronto-rest: var(--toronto-400);
+
+  --stroke-dublin-disabled: var(--dublin-200);
+  --stroke-dublin-focus: var(--dublin-600);
+  --stroke-dublin-hover: var(--dublin-300);
+  --stroke-dublin-rest: var(--dublin-400);
+
+  --stroke-kyoto-disabled: var(--kyoto-100);
+  --stroke-kyoto-focus: var(--kyoto-700);
+  --stroke-kyoto-hover: var(--kyoto-200);
+  --stroke-kyoto-rest: var(--kyoto-500);
+
+  --stroke-primary-disabled: var(--greys-200);
+  --stroke-primary-focus: var(--greys-950);
+  --stroke-primary-hover: var(--greys-400);
+  --stroke-primary-rest: var(--greys-950);
+
+  --stroke-texas-disabled: var(--texas-50);
+  --stroke-texas-focus: var(--texas-400);
+  --stroke-texas-hover: var(--texas-100);
+  --stroke-texas-rest: var(--texas-200);
+
+  --stroke-toronto-disabled: var(--toronto-100);
+  --stroke-toronto-focus: var(--toronto-600);
+  --stroke-toronto-hover: var(--toronto-300);
+  --stroke-toronto-rest: var(--toronto-400);
+
+  --text-dublin-primary: var(--dublin-400);
+  --text-dublin-secondary: var(--dublin-300);
+
+  --text-inverted-primary: var(--base-white);
+  --text-inverted-secondary: var(--greys-200);
+
+  --text-kyoto-primary: var(--kyoto-500);
+  --text-kyoto-secondary: var(--kyoto-300);
+
+  --text-primary-primary: var(--greys-950);
+  --text-primary-secondary: var(--greys-500);
+
+  --text-texas-primary: var(--texas-300);
+  --text-texas-secondary: var(--texas-200);
+
+  --text-toronto-primary: var(--toronto-400);
+  --text-toronto-secondary: var(--toronto-300);
 }
 
 @font-face {
@@ -161,51 +410,5 @@ body {
 
 body {
   font-family: 'Inter Tight';
+  padding: var(--space-0);
 }
-
-:root {
-  --space-0: 0px;
-  --space-1: 1px;
-  --space-025: 2px;
-  --space-050: 4px;
-  --space-075: 6px;
-  --space-100: 8px;
-  --space-125: 10px;
-  --space-150: 12px;
-  --space-175: 14px;
-  --space-200: 16px;
-  --space-225: 18px;
-  --space-250: 20px;
-  --space-275: 22px;
-  --space-300: 24px;
-  --space-350: 28px;
-  --space-400: 32px;
-  --space-450: 36px;
-  --space-500: 40px;
-  --space-550: 44px;
-  --space-600: 48px;
-  --space-650: 52px;
-  --space-700: 56px;
-  --space-750: 60px;
-  --space-900: 72px;
-  --space-850: 68px;
-  --space-800: 64px;
-  --space-950: 76px;
-  --space-1000: 80px;
-  --space-1250: 100px;
-  --space-1500: 120px;
-  --space-1750: 140px;
-  --space-2000: 160px;
-  --space-2500: 200px;
-  --space-3000: 240px;
-}
-
-:root {
-  --white: rgb(255, 255, 255);
-  --black: rgb(0, 0, 0);
-  --transparent: rgba(255, 255, 255, 0);
-}
-
-/*PRIMITIVE*/
-
-/*SEMANTIC*/
