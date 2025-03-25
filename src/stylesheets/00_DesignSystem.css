@@ -1,6 +1,7 @@
 /*IMPORTS*/
 @import './00_Tokens/00_Tokens.css';
 @import './00_Tokens/00_IconSet.css';
+@import './04_Layouts/04_HeroHomepags.css';
 
 * {
   box-sizing: border-box;
