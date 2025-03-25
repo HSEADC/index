@@ -135,8 +135,6 @@ html {
 
 body {
   background-color: var(--background-primary);
-  background-repeat: repeat;
-  background-size: 200px;
 }
 
 *:focus {
@@ -391,24 +389,4 @@ body {
 
   --text-toronto-primary: var(--toronto-400);
   --text-toronto-secondary: var(--toronto-300);
-}
-
-@font-face {
-  font-family: 'Inter Tight';
-  src: url('../font/InterTight-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Inter Tight';
-  src: url('../font/InterTight-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'DexterType';
-  src: url('../font/DexterType.ttf') format('truetype');
-}
-
-body {
-  font-family: 'Inter Tight';
-  padding: var(--space-0);
 }

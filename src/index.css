@@ -1,7 +1,1 @@
-@import './stylesheets/00_Tokens.css';
-@import './stylesheets/00_Iconset.css';
-@import './stylesheets/01_Atoms.css';
-
-@import './stylesheets/02_Molecules.css';
-@import './stylesheets/03_Organisms.css';
-@import './stylesheets/04_Layouts.css';
+@import './stylesheets/DesignSystem.css';

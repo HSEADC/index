@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Min Icon VF';
-  src: url('../font/MinIconVF.ttf') format('truetype');
+  src: url('../../font/MinIconVF.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
 }
