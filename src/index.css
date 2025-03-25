@@ -1,13 +1,3 @@
-@import './stylesheets/00_DataTables.css';
-@import './stylesheets/00_DesignSystem.css';
-@import './stylesheets/01_Quarks.css';
-@import './stylesheets/02_Wrappers.css';
-@import './stylesheets/03_Atoms.css';
-@import './stylesheets/04_Molecules.css';
-@import './stylesheets/05_Organisms.css';
-@import './stylesheets/06_SuperOrganisms.css';
-@import './stylesheets/07_Layouts.css';
-
 .threejs-canvas {
   position: absolute;
   top: 0;
