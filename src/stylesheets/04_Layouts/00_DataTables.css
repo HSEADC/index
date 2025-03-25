@@ -1,4 +1,4 @@
-@import './00_DesignSystem.css';
+@import '../00_DesignSystem.css';
 
 #main {
   border-collapse: separate;

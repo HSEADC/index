@@ -1,7 +1,7 @@
 import $ from 'jquery'
 import 'datatables.net'
 import data from './data/data.json'
-import './stylesheets/00_DataTables.css'
+import './stylesheets/04_Layouts/00_DataTables.css'
 import '../src/index.css'
 import initEvents from './scripts/events.js'
 
