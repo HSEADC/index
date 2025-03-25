@@ -38,7 +38,7 @@ module.exports = {
             options: {
               name: '[name].[ext]',
               outputPath: 'images/datatable/',
-              publicPath: '/images/datatable/' // Add leading slash
+              publicPath: '/images/datatable/'
             }
           }
         ]
@@ -84,7 +84,6 @@ module.exports = {
       }
     ]
   },
-  // Plugins
   plugins: [
     new webpack.ProvidePlugin({
       $: 'jquery',
@@ -104,46 +103,6 @@ module.exports = {
       chunks: ['index']
     }),
 
-    new HtmlWebpackPlugin({
-      template: './src/gallery.html',
-      filename: './gallery.html'
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/styleguide.html',
-      filename: './styleguide.html'
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/articles.html',
-      filename: './articles.html'
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/articles/breakdowns/breakdown.html',
-      filename: './articles/breakdowns/breakdown.html'
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/articles/reviews/review.html',
-      filename: './articles/reviews/review.html'
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/articles.html',
-      filename: './articles.html'
-    }),
-
-    // Internal pages
-    // new HtmlWebpackPlugin({
-    //   hash: true,
-    //   scriptLoading: 'blocking',
-    //   template: './src/pages/page.html',
-    //   filename: './pages/page.html',
-    //   chunks: ['page']
-    // }),
-
-    // Partials
     new HtmlWebpackPartialsPlugin([
       {
         path: path.join(__dirname, './src/partials/analytics.html'),
@@ -153,12 +112,9 @@ module.exports = {
       }
     ]),
 
-    // CopyWebpackPlugin configuration
     new CopyWebpackPlugin({
       patterns: [{ from: 'src/data', to: 'data' }]
     })
   ],
-  optimization: {
-    // minimizer: [new CssMinimizerPlugin()]
-  }
+  optimization: {}
 }

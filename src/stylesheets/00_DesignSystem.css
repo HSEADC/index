@@ -144,42 +144,6 @@ body {
   outline: none;
 }
 
-@media (max-width: 480px) {
-  :root {
-    font-size: 1.25vw;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 640px) {
-  :root {
-    font-size: 1.25vw;
-  }
-}
-
-@media (min-width: 640px) and (max-width: 960px) {
-  :root {
-    font-size: 1.25vw;
-  }
-}
-
-@media (min-width: 960px) and (max-width: 1200px) {
-  :root {
-    font-size: 1.25vw;
-  }
-}
-
-@media (min-width: 1200px) {
-  :root {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 2560px) {
-  :root {
-    font-size: 1.25vw;
-  }
-}
-
 :root {
   --space-0: 0px;
   --space-1: 1px;
@@ -223,72 +187,13 @@ body {
   --transparent: rgba(255, 255, 255, 0);
 }
 
-:root {
-  --blue-50: rgba(242, 242, 255, 1);
-  --blue-100: rgba(232, 231, 255, 1);
-  --blue-200: rgba(211, 210, 255, 1);
-  --blue-300: rgba(179, 174, 255, 1);
-  --blue-400: rgba(140, 128, 255, 1);
-  --blue-500: rgba(104, 77, 255, 1);
-  --blue-600: rgba(71, 23, 255, 1);
-  --blue-700: rgba(71, 22, 235, 1);
-  --blue-800: rgba(59, 18, 197, 1);
-  --blue-900: rgba(50, 17, 161, 1);
-  --blue-950: rgba(26, 7, 110, 1);
-  --blue-1000: rgba(24, 18, 52, 1);
-}
-:root {
-  --zinc-50: #fafafa;
-  --zinc-100: #f4f4f5;
-  --zinc-200: #e4e4e7;
-  --zinc-300: #d4d4d8;
-  --zinc-400: #a1a1aa;
-  --zinc-500: #71717a;
-  --zinc-600: #52525b;
-  --zinc-700: #3f3f46;
-  --zinc-800: #27272a;
-  --zinc-900: #18181b;
-  --zinc-950: #09090b;
-}
-
-/*SEMANTIC*/
-:root {
-  --background-primary: var(--zinc-50);
-  --background-dark: var(--zinc-900);
-
-  --foreground-primary: var(--white);
-  --foreground-secondary: var(--zinc-100);
-  --foreground-ternitary: var(--zinc-100);
-  --accent: var(--blue-600);
-
-  --text-primary: var(--zinc-950);
-  --text-secondary: var(--zinc-700);
-  --text-ternitary: var(--zinc-400);
-  --text-accent: var(--blue-600);
-  --text-inverted: var(--white);
-  --text-link: var(--zinc-950);
-
-  --stroke-primary: var(--zinc-950);
-  --stroke-seconary: var(--zinc-700);
-  --stroke-ternitary: var(--zinc-400);
-  --stroke-quaternary: var(--zinc-200);
-
-  --radius-none: var(--space-0);
-  --radius-x-small: var(--space-025);
-  --radius-small: var(--space-050);
-  --radius-medium: var(--space-075);
-  --radius-large: var(--space-100);
-  --radius-x-large: var(--space-150);
-  --radius-max: 9999px;
-}
-
 @font-face {
-  font-family: 'Montreal Regular';
+  font-family: 'Inter Tight';
   src: url('../font/InterTight-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Montreal Bold';
+  font-family: 'Inter Tight';
   src: url('../font/InterTight-VariableFont_wght.ttf') format('truetype');
 }
 
@@ -298,6 +203,5 @@ body {
 }
 
 body {
-  font-family: 'Montreal Regular';
-  background-color: var(--background-primary);
+  font-family: 'Inter Tight';
 }
