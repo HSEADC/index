@@ -1,3 +1,5 @@
+@import './stylesheets/00_DesignSystem.css';
+
 .threejs-canvas {
   position: absolute;
   top: 0;
