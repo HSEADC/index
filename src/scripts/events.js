@@ -1,7 +1,7 @@
 import eventsData from '../data/events.json'
 
 export default function initEvents() {
-  const container = document.querySelector('.W_EventsContainer')
+  const container = document.querySelector('.hero-events')
   if (!container) return
 
   const now = new Date()

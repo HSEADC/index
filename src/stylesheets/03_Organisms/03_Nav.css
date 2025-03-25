@@ -1,1 +1,10 @@
-@import '../00_DesignSystem.css';
+@import '../00_Tokens/00_Tokens.css';
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-200);
+  background-color: var(--foreground--dublin);
+}

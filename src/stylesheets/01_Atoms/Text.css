@@ -12,7 +12,7 @@
 
 .text-display-accent {
   font-size: var(--space-4000);
-  line-height: calc(var(--space-4000) * 1.05);
+  line-height: calc(var(--space-4000) * 1);
   letter-spacing: calc(var(--space-4000) * 0.05);
   font-family: 'DexterType';
 }
@@ -58,7 +58,7 @@
 @media (max-width: 392px) {
   .text-display-accent {
     font-size: 20rem;
-    line-height: calc(20rem * 1.05);
+    line-height: calc(20rem * 1);
     letter-spacing: calc(20rem * 0.05);
   }
 
@@ -102,7 +102,7 @@
 @media (min-width: 393px) and (max-width: 833px) {
   .text-display-accent {
     font-size: var(--space-1700);
-    line-height: calc(var(--space-1700) * 1.05);
+    line-height: calc(var(--space-1700) * 1);
     letter-spacing: calc(var(--space-1700) * 0.05);
   }
 
@@ -146,7 +146,7 @@
 @media (min-width: 834px) and (max-width: 1279px) {
   .text-display-accent {
     font-size: var(--space-2500);
-    line-height: calc(var(--space-2500) * 1.05);
+    line-height: calc(var(--space-2500) * 1);
     letter-spacing: calc(var(--space-2500) * 0.05);
   }
 
@@ -190,7 +190,7 @@
 @media (min-width: 1280px) and (max-width: 1919px) {
   .text-display-accent {
     font-size: var(--space-2750);
-    line-height: calc(var(--space-2750) * 1.05);
+    line-height: calc(var(--space-2750) * 1);
     letter-spacing: calc(var(--space-2750) * 0.05);
   }
 
@@ -234,7 +234,7 @@
 @media (min-width: 1920px) and (max-width: 2559px) {
   .text-display-accent {
     font-size: var(--space-4000);
-    line-height: calc(var(--space-4000) * 1.05);
+    line-height: calc(var(--space-4000) * 1);
     letter-spacing: calc(var(--space-4000) * 0.05);
   }
 
@@ -278,7 +278,7 @@
 @media (min-width: 1920px) {
   .text-display-accent {
     font-size: 20rem;
-    line-height: calc(20rem * 1.05);
+    line-height: calc(20rem * 1);
     letter-spacing: calc(20rem * 0.05);
   }
 
