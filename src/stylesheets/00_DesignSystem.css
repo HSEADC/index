@@ -90,7 +90,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -284,12 +284,17 @@ body {
 
 @font-face {
   font-family: 'Montreal Regular';
-  src: url('../font/NeueMontreal-Regular.ttf') format('truetype');
+  src: url('../font/InterTight-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Montreal Bold';
-  src: url('../font/NeueMontreal-Bold.ttf') format('truetype');
+  src: url('../font/InterTight-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DexterType';
+  src: url('../font/DexterType.ttf') format('truetype');
 }
 
 body {

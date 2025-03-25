@@ -1,4 +1,3 @@
-// src/scripts/globe.js
 import * as THREE from 'three'
 
 export default function initGlobe() {

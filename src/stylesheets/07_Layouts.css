@@ -1,13 +1,1 @@
 @import './00_DesignSystem.css';
-
-.L_Hero {
-  display: flex;
-  flex-direction: row;
-  height: 70vh;
-  border-bottom: 1px solid var(--stroke-ternitary);
-}
-.L_Table {
-  display: flex;
-  flex-direction: row;
-  padding: var(--space-0) var(--space-200);
-}
