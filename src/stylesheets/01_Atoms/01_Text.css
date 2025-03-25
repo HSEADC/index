@@ -1,24 +1,5 @@
 @import '../00_Tokens/00_Tokens.css';
 
-@font-face {
-  font-family: 'InterTight';
-  src: url('../../font/InterTight-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'InterTight-semibold';
-  src: url('../../font/InterTight-SemiBold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'DexterType';
-  src: url('../../font/DexterType.ttf') format('truetype');
-}
-
-h1 {
-  font-family: 'InterTight';
-}
-
 /*IMPORT FONT*/
 
 h1 {
