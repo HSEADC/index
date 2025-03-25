@@ -1,5 +1,9 @@
 @import '../00_DesignSystem.css';
 
+.datatable {
+  padding: var(--space-200);
+}
+
 #main {
   border-collapse: separate;
 }

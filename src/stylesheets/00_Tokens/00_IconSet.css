@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Min Icon VF';
+  src: url('../../font/MinIconVF.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+i {
+  display: inline-block !important;
+  flex-direction: row !important;
+  padding: var(--space-100) !important;
+  font-family: 'Min Icon VF', 'Min Icon Brand' !important;
+  font-size: var(--space-300) !important;
+  font-weight: 800;
+  line-height: 1;
+  font-variation-settings: 'rond' 0, 'edpt' 0;
+  font-style: normal;
+  vertical-align: top;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Icon Style */
+i.fill {
+  font-feature-settings: 'ss09' on;
+}
+i.spin {
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Icon Weight */
+i.iThin {
+  font-weight: 100;
+}
+i.iExtraLight {
+  font-weight: 200;
+}
+i.iLight {
+  font-weight: 300;
+}
+i.iRegular {
+  font-weight: 400;
+}
+i.iMedium {
+  font-weight: 500;
+}
+i.iSemiBold {
+  font-weight: 600;
+}
+i.iBold {
+  font-weight: 700;
+}
+i.iExtraBold {
+  font-weight: 800;
+}
+i.iBlack {
+  font-weight: 900;
+}

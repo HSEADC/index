@@ -1,0 +1,319 @@
+@import '../00_Tokens/00_Tokens.css';
+
+.strong {
+  font-weight: 600;
+}
+
+.caps {
+  text-transform: capitalize;
+}
+
+/*TEXT STYLES*/
+
+.text-display-accent {
+  font-size: var(--space-4000);
+  line-height: calc(var(--space-4000) * 1.05);
+  letter-spacing: calc(var(--space-4000) * 0.05);
+  font-family: 'DexterType';
+}
+
+.text-display {
+  font-size: var(--space-4000);
+  line-height: var(--space-4000);
+}
+
+.text-h1 {
+  font-size: var(--space-1000);
+  line-height: var(--space-900);
+}
+
+.text-h2 {
+  font-size: var(--space-700);
+  line-height: var(--space-625);
+}
+
+.text-h3 {
+  font-size: var(--space-500);
+  line-height: var(--space-500);
+}
+
+.text-h4 {
+  font-size: var(--space-350);
+  line-height: var(--space-350);
+}
+
+.text-body {
+  font-size: var(--space-250);
+  line-height: var(--space-275);
+}
+
+.label {
+  font-size: var(--space-150);
+  line-height: var(--space-150);
+}
+
+/*TEXT STYLES BREAKPOINTS*/
+
+/*before mobile*/
+@media (max-width: 392px) {
+  .text-display-accent {
+    font-size: 20rem;
+    line-height: calc(20rem * 1.05);
+    letter-spacing: calc(20rem * 0.05);
+  }
+
+  .text-display {
+    font-size: 20rem;
+    line-height: 20rem;
+  }
+
+  .text-h1 {
+    font-size: 5rem;
+    line-height: 4.5rem;
+  }
+
+  .text-h2 {
+    font-size: 3.5rem;
+    line-height: 3.125rem;
+  }
+
+  .text-h3 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .text-h4 {
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+  }
+
+  .text-body {
+    font-size: 1.25rem;
+    line-height: 1.375rem;
+  }
+
+  .text-label {
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+  }
+}
+
+/*mobile*/
+@media (min-width: 393px) and (max-width: 833px) {
+  .text-display-accent {
+    font-size: var(--space-1700);
+    line-height: calc(var(--space-1700) * 1.05);
+    letter-spacing: calc(var(--space-1700) * 0.05);
+  }
+
+  .text-display {
+    font-size: var(--space-1700);
+    line-height: var(--space-1700);
+  }
+
+  .text-h1 {
+    font-size: var(--space-425);
+    line-height: var(--space-375);
+  }
+
+  .text-h2 {
+    font-size: var(--space-350);
+    line-height: var(--space-325);
+  }
+
+  .text-h3 {
+    font-size: var(--space-275);
+    line-height: var(--space-275);
+  }
+
+  .text-h4 {
+    font-size: var(--space-225);
+    line-height: var(--space-225);
+  }
+
+  .text-body {
+    font-size: var(--space-175);
+    line-height: var(--space-200);
+  }
+
+  .text-label {
+    font-size: var(--space-150);
+    line-height: var(--space-150);
+  }
+}
+
+/*tablet*/
+@media (min-width: 834px) and (max-width: 1279px) {
+  .text-display-accent {
+    font-size: var(--space-2500);
+    line-height: calc(var(--space-2500) * 1.05);
+    letter-spacing: calc(var(--space-2500) * 0.05);
+  }
+
+  .text-display {
+    font-size: var(--space-2500);
+    line-height: var(--space-2500);
+  }
+
+  .text-h1 {
+    font-size: var(--space-625);
+    line-height: var(--space-550);
+  }
+
+  .text-h2 {
+    font-size: var(--space-475);
+    line-height: var(--space-450);
+  }
+
+  .text-h3 {
+    font-size: var(--space-350);
+    line-height: var(--space-350);
+  }
+
+  .text-h4 {
+    font-size: var(--space-275);
+    line-height: var(--space-275);
+  }
+
+  .text-body {
+    font-size: var(--space-200);
+    line-height: var(--space-225);
+  }
+
+  .text-label {
+    font-size: var(--space-150);
+    line-height: var(--space-150);
+  }
+}
+
+/*laptop*/
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .text-display-accent {
+    font-size: var(--space-2750);
+    line-height: calc(var(--space-2750) * 1.05);
+    letter-spacing: calc(var(--space-2750) * 0.05);
+  }
+
+  .text-display {
+    font-size: var(--space-2750);
+    line-height: var(--space-2750);
+  }
+
+  .text-h1 {
+    font-size: var(--space-700);
+    line-height: var(--space-625);
+  }
+
+  .text-h2 {
+    font-size: var(--space-525);
+    line-height: var(--space-500);
+  }
+
+  .text-h3 {
+    font-size: var(--space-400);
+    line-height: var(--space-400);
+  }
+
+  .text-h4 {
+    font-size: var(--space-300);
+    line-height: var(--space-300);
+  }
+
+  .text-body {
+    font-size: var(--space-225);
+    line-height: var(--space-250);
+  }
+
+  .text-label {
+    font-size: var(--space-150);
+    line-height: var(--space-150);
+  }
+}
+
+/*desktop*/
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .text-display-accent {
+    font-size: var(--space-4000);
+    line-height: calc(var(--space-4000) * 1.05);
+    letter-spacing: calc(var(--space-4000) * 0.05);
+  }
+
+  .text-display {
+    font-size: var(--space-4000);
+    line-height: var(--space-4000);
+  }
+
+  .text-h1 {
+    font-size: var(--space-1000);
+    line-height: var(--space-900);
+  }
+
+  .text-h2 {
+    font-size: var(--space-700);
+    line-height: var(--space-625);
+  }
+
+  .text-h3 {
+    font-size: var(--space-500);
+    line-height: var(--space-500);
+  }
+
+  .text-h4 {
+    font-size: var(--space-350);
+    line-height: var(--space-350);
+  }
+
+  .text-body {
+    font-size: var(--space-250);
+    line-height: var(--space-275);
+  }
+
+  .text-label {
+    font-size: var(--space-150);
+    line-height: var(--space-150);
+  }
+}
+
+/*after desktop*/
+@media (min-width: 1920px) {
+  .text-display-accent {
+    font-size: 20rem;
+    line-height: calc(20rem * 1.05);
+    letter-spacing: calc(20rem * 0.05);
+  }
+
+  .text-display {
+    font-size: 20rem;
+    line-height: 20rem;
+  }
+
+  .text-h1 {
+    font-size: 5rem;
+    line-height: 4.5rem;
+  }
+
+  .text-h2 {
+    font-size: 3.5rem;
+    line-height: 3.125rem;
+  }
+
+  .text-h3 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .text-h4 {
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+  }
+
+  .text-body {
+    font-size: 1.25rem;
+    line-height: 1.375rem;
+  }
+
+  .text-label {
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+  }
+}
