@@ -1,18 +1,8 @@
+@import './stylesheets/00_Tokens.css';
 @import './stylesheets/00_DataTables.css';
-@import './stylesheets/00_DesignSystem.css';
-@import './stylesheets/01_Quarks.css';
-@import './stylesheets/02_Wrappers.css';
-@import './stylesheets/03_Atoms.css';
-@import './stylesheets/04_Molecules.css';
-@import './stylesheets/05_Organisms.css';
-@import './stylesheets/06_SuperOrganisms.css';
-@import './stylesheets/07_Layouts.css';
+@import './stylesheets/00_Iconset.css';
+@import './stylesheets/01_Atoms.css';
 
-.threejs-canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
+@import './stylesheets/02_Molecules.css';
+@import './stylesheets/03_Organisms.css';
+@import './stylesheets/04_Layouts.css';

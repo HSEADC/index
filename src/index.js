@@ -1,7 +1,6 @@
 import $ from 'jquery'
 import 'datatables.net'
 import data from './data/data.json'
-import './stylesheets/00_DataTables.css'
 import '../src/index.css'
 import initEvents from './scripts/events.js'
 
@@ -29,7 +28,7 @@ $(document).ready(function () {
         next: '›'
       }
     },
-    dom: '<"top"f>rt<"bottom"lp><"clear">' // Removed dt-info from dom
+    dom: '<"top"f>rt<"bottom"lp><"clear">'
   })
 
   initGlobe()

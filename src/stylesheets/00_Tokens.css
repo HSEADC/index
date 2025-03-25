@@ -144,6 +144,25 @@ body {
   outline: none;
 }
 
+@font-face {
+  font-family: 'Inter Tight';
+  src: url('../font/InterTight-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter Tight';
+  src: url('../font/InterTight-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DexterType';
+  src: url('../font/DexterType.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Inter Tight';
+}
+
 :root {
   --space-0: 0px;
   --space-1: 1px;
@@ -187,21 +206,6 @@ body {
   --transparent: rgba(255, 255, 255, 0);
 }
 
-@font-face {
-  font-family: 'Inter Tight';
-  src: url('../font/InterTight-VariableFont_wght.ttf') format('truetype');
-}
+/*PRIMITIVE*/
 
-@font-face {
-  font-family: 'Inter Tight';
-  src: url('../font/InterTight-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'DexterType';
-  src: url('../font/DexterType.ttf') format('truetype');
-}
-
-body {
-  font-family: 'Inter Tight';
-}
+/*SEMANTIC*/
