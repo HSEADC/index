@@ -46,7 +46,7 @@ function renderEvents(container) {
     card.classList.add('event-card')
     card.innerHTML = `
       <div class="event-card__top">
-        <div class="event-card__dates">
+        <div class="event-card__dates text-body">
           <div>${event.DateStart}</div>
           <div>— ${event.DateEnd}</div>
         </div>
@@ -71,7 +71,7 @@ function renderEvents(container) {
   link.target = '_blank'
 
   const loadMoreButton = document.createElement('button')
-  loadMoreButton.classList.add('button-medium')
+  loadMoreButton.classList.add('button-large', 'dublin', 'text-h3')
   loadMoreButton.textContent = 'Предложить ивент'
 
   link.appendChild(loadMoreButton)

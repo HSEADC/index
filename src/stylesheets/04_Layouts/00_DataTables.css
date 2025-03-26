@@ -17,54 +17,26 @@
 }
 
 #main tbody td {
-  background-color: white;
+  background-color: var(--foreground-primary);
   padding: 1rem 0.75rem;
   border-radius: var(--radius-x-small);
   vertical-align: top;
-  border: 1px solid var(--stroke-ternitary);
-}
-
-/* Adaptive font sizes */
-@media (max-width: 768px) {
-  #main {
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  #main {
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 1025px) {
-  #main {
-    font-size: 16px;
-  }
-}
-
-/* Mobile vertical scroll */
-@media (max-width: 768px) {
-  .dataTables_wrapper {
-    overflow-y: auto;
-    max-height: 80vh;
-    display: block;
-  }
-
-  #main {
-    width: 100% !important;
-    min-width: 600px;
-  }
+  border: 1px solid var(--stroke-dublin-rest);
 }
 
 .dt-layout-row {
   padding: var(--space-0) var(--space-200);
 }
 
+.dt-input:hover {
+  box-shadow: 0px 1px 20px -2px rgb(187, 247, 194, 150);
+  border: 10px solid var(--stroke-dublin-rest);
+}
+
 .dt-search {
   display: flex;
   flex-direction: column;
-  padding: var(--space-200) var(--space-0);
+  padding: var(--space-200) var(--space-200);
 }
 
 .dt-search > label {
@@ -100,8 +72,8 @@
 }
 select.dt-input option {
   padding: 10px;
-  background-color: #fff; /* Change the background color of options */
-  color: #333; /* Change the text color of options */
+  background-color: #fff;
+  color: #333;
 }
 
 .dt-info {
@@ -116,48 +88,4 @@ select.dt-input {
   border-radius: 4px; /* Round the corners */
   background-color: #f9f9f9; /* Change the background color */
   color: #333; /* Change the text color */
-}
-
-.image-preview-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 10000;
-}
-
-/* Image Styling */
-.image-preview {
-  max-height: 90vh;
-  max-width: 90vw;
-  border-radius: 8px;
-  object-fit: contain;
-  transition: transform 0.3s ease;
-}
-
-/* Hover effect for image */
-.image-preview:hover {
-  transform: scale(1.02);
-}
-
-/* Error Message Styling */
-.image-preview-overlay::before {
-  content: 'Image not found';
-  color: white;
-  display: none;
-  position: absolute;
-  font-size: 1.5rem;
-  font-weight: 500;
-  padding: 1rem 2rem;
-  border-radius: 8px;
-}
-
-.image-preview-overlay:empty::before {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

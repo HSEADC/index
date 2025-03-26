@@ -53,7 +53,7 @@
 /*DUBLIN*/
 .dublin {
   background-color: var(--foreground-dublin-rest);
-  color: var(--text-dublin-primary);
+  color: var(--text-primary);
   box-shadow: 0px 1px 2px 2px var(--e-1-key);
   box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
   border: 0px solid var(--transparent);

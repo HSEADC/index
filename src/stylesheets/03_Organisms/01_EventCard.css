@@ -7,6 +7,22 @@
   background-color: var(--foreground-primary-rest);
 }
 
+.event-card__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--space-100);
+}
+
+.events-card__description {
+  padding: var(--space-100);
+}
+
+.event-card__dates {
+  display: flex;
+  flex-direction: column;
+}
+
 .events-card__image {
   display: flex;
   overflow: hidden;

@@ -9,3 +9,14 @@
 .footer a:visited {
   color: var(--text-inverted-primary);
 }
+
+.footer-nav__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.footer__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
