@@ -2,6 +2,7 @@
 
 .datatable {
   padding: var(--space-200);
+  background-color: var(--background-primary);
 }
 
 #main {
@@ -72,8 +73,9 @@
 
 #dt-search-0 {
   border-radius: var(--radius-max);
-  border: 1px solid var(--stroke-ternitary);
+  border: 1px solid var(--stroke-primary-rest);
   padding: var(--space-200);
+  background-color: var(--foreground-primary-rest);
 }
 .dt-length {
   display: flex;
