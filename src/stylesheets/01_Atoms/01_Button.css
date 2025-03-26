@@ -10,9 +10,13 @@
 }
 
 .skeleton:hover {
-  background-color: var(--foreground--primary-hover);
+  background-color: var(--foreground-primary-hover);
   box-shadow: 0px 1px 2px -2px var(--e-2-key);
   box-shadow: 0px 0px 2px 0px var(--e-2-ambient);
+}
+
+.skeleton:focus {
+  border: 1px solid var(--stroke-primary);
 }
 
 /*SIZES*/

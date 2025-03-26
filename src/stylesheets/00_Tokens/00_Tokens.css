@@ -343,7 +343,7 @@ body {
   --foreground-primary-disabled: var(--greys-100);
   --foreground-primary-focus: var(--greys-50);
   --foreground-primary-hover: var(--greys-50);
-  --foreground-primary-rest: var(--base-white);
+  --foreground-primary-rest: var(--white);
 
   --foreground-texas-disabled: var(--texas-50);
   --foreground-texas-focus: var(--texas-100);
@@ -399,4 +399,148 @@ body {
   --text-toronto-secondary: var(--toronto-300);
 }
 
-/**/
+/* TEXTS */
+
+:root {
+  --fontsize-display: var(--space-4000);
+  --fontsize-h1: var(--space-1000);
+  --fontsize-h2: var(--space-700);
+  --fontsize-h3: var(--space-500);
+  --fontsize-h4: var(--space-350);
+  --fontsize-body: var(--space-250);
+  --fontsize-label: var(--space-150);
+
+  --lineheight-display: var(--space-4000);
+  --lineheight-h1: var(--space-900);
+  --lineheight-h2: var(--space-675);
+  --lineheight-h3: var(--space-500);
+  --lineheight-h4: var(--space-350);
+  --lineheight-body: var(--space-275);
+  --lineheight-label: var(--space-150);
+}
+
+/* Before Mobile */
+@media (max-width: 392px) {
+  :root {
+    --fontsize-display: 10.88rem;
+    --fontsize-h1: 2.72rem;
+    --fontsize-h2: 1.9rem;
+    --fontsize-h3: 1.36rem;
+    --fontsize-h4: 0.95rem;
+    --fontsize-body: 0.68rem;
+    --fontsize-label: 0.41rem;
+
+    --lineheight-display: 10.88rem;
+    --lineheight-h1: 2.45rem;
+    --lineheight-h2: 1.84rem;
+    --lineheight-h3: 1.36rem;
+    --lineheight-h4: 0.95rem;
+    --lineheight-body: 0.75rem;
+    --lineheight-label: 0.41rem;
+  }
+}
+
+/* Mobile */
+@media (min-width: 393px) and (max-width: 833px) {
+  :root {
+    --fontsize-display: var(--space-1700);
+    --fontsize-h1: var(--space-425);
+    --fontsize-h2: var(--space-350);
+    --fontsize-h3: var(--space-275);
+    --fontsize-h4: var(--space-225);
+    --fontsize-body: var(--space-175);
+    --fontsize-label: var(--space-150);
+
+    --lineheight-display: var(--space-1700);
+    --lineheight-h1: var(--space-375);
+    --lineheight-h2: var(--space-325);
+    --lineheight-h3: var(--space-275);
+    --lineheight-h4: var(--space-225);
+    --lineheight-body: var(--space-200);
+    --lineheight-label: var(--space-150);
+  }
+}
+
+/* Tablet */
+@media (min-width: 834px) and (max-width: 1279px) {
+  :root {
+    --fontsize-display: var(--space-2500);
+    --fontsize-h1: var(--space-625);
+    --fontsize-h2: var(--space-475);
+    --fontsize-h3: var(--space-350);
+    --fontsize-h4: var(--space-275);
+    --fontsize-body: var(--space-200);
+    --fontsize-label: var(--space-150);
+
+    --lineheight-display: var(--space-2500);
+    --lineheight-h1: var(--space-550);
+    --lineheight-h2: var(--space-450);
+    --lineheight-h3: var(--space-350);
+    --lineheight-h4: var(--space-275);
+    --lineheight-body: var(--space-225);
+    --lineheight-label: var(--space-150);
+  }
+}
+
+/* Laptop */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  :root {
+    --fontsize-display: var(--space-2750);
+    --fontsize-h1: var(--space-700);
+    --fontsize-h2: var(--space-525);
+    --fontsize-h3: var(--space-400);
+    --fontsize-h4: var(--space-300);
+    --fontsize-body: var(--space-225);
+    --fontsize-label: var(--space-150);
+
+    --lineheight-display: var(--space-2750);
+    --lineheight-h1: var(--space-625);
+    --lineheight-h2: var(--space-500);
+    --lineheight-h3: var(--space-400);
+    --lineheight-h4: var(--space-300);
+    --lineheight-body: var(--space-250);
+    --lineheight-label: var(--space-150);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1920px) and (max-width: 2559px) {
+  :root {
+    --fontsize-display: var(--space-4000);
+    --fontsize-h1: var(--space-1000);
+    --fontsize-h2: var(--space-700);
+    --fontsize-h3: var(--space-500);
+    --fontsize-h4: var(--space-350);
+    --fontsize-body: var(--space-250);
+    --fontsize-label: var(--space-150);
+
+    --lineheight-display: var(--space-4000);
+    --lineheight-h1: var(--space-900);
+    --lineheight-h2: var(--space-675);
+    --lineheight-h3: var(--space-500);
+    --lineheight-h4: var(--space-350);
+    --lineheight-body: var(--space-275);
+    --lineheight-label: var(--space-150);
+  }
+}
+
+/* After Desktop */
+@media (min-width: 2560px) {
+  :root {
+    --fontsize-display: 13.6rem;
+    --fontsize-h1: 3.4rem;
+    --fontsize-h2: 2.38rem;
+    --fontsize-h3: 1.7rem;
+    --fontsize-h4: 1.19rem;
+    --fontsize-body: 0.85rem;
+    --fontsize-label: 0.51rem;
+
+    --lineheight-display: 13.6rem;
+    --lineheight-h1: 3.06rem;
+    --lineheight-h2: 2.3rem;
+    --lineheight-h3: 1.7rem;
+    --lineheight-h4: 1.19rem;
+    --lineheight-body: 0.93rem;
+    --lineheight-label: 0.51rem;
+  }
+}
