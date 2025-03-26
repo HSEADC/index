@@ -1,8 +1,9 @@
 import eventsData from '../data/events.json'
 
-export default function initEvents() {
-  const container = document.querySelector('.hero-events')
-  if (!container) return
+let cachedContainer = null
+
+function renderEvents(container) {
+  if (container.children.length > 0) return
 
   const now = new Date()
 
@@ -32,7 +33,7 @@ export default function initEvents() {
         <div class="events-card__image">
           <img src="${event.imageLink}" alt="Event Image">
         </div>
-        <div class="events-card__description>
+        <div class="events-card__description">
     <p class="text-body">${event.Description}</p>
     </div>
     `
@@ -49,4 +50,43 @@ export default function initEvents() {
 
   link.appendChild(loadMoreButton)
   container.appendChild(link)
+}
+
+function handleEventsVisibility() {
+  const width = window.innerWidth
+
+  if (width > 834) {
+    let container = document.querySelector('.hero-events')
+
+    // Reinsert container if it was cached
+    if (!container && cachedContainer) {
+      const { element, parent, nextSibling } = cachedContainer
+      parent.insertBefore(element, nextSibling)
+      container = element
+      cachedContainer = null
+    }
+
+    if (container) {
+      renderEvents(container)
+    }
+  } else {
+    const container = document.querySelector('.hero-events')
+    if (container) {
+      // Cache container's position before removal
+      cachedContainer = {
+        element: container,
+        parent: container.parentNode,
+        nextSibling: container.nextSibling
+      }
+      container.remove()
+    }
+  }
+}
+
+export default function initEvents() {
+  // Initial check
+  handleEventsVisibility()
+
+  // Update on window resize
+  window.addEventListener('resize', handleEventsVisibility)
 }
