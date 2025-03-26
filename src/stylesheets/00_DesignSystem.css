@@ -3,6 +3,7 @@
 @import './00_Tokens/01_IconSet.css';
 @import './00_Tokens/01_Styles.css';
 @import './01_Atoms/00_Text.css';
+@import './01_Atoms/02_Links.css';
 @import './01_Atoms/01_Button.css';
 @import './03_Organisms/03_Nav.css';
 

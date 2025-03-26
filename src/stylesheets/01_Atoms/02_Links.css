@@ -1,1 +1,66 @@
 @import '../00_Tokens/00_Tokens.css';
+
+.nav__link {
+  display: inline-flex;
+  padding: var(--space-075) var(--space-100);
+  gap: var(--space-025);
+  background: var(--transparent);
+  border: 0px solid var(--transparent);
+}
+.nav__link a {
+  text-decoration: none;
+  color: inherit;
+}
+.nav__link:hover {
+  background: var(--foreground-primary-rest);
+  box-shadow: 0px 1px 2px -2px var(--e-2-key),
+    0px 0px 2px 0px var(--e-2-ambient);
+}
+.nav__link.active {
+  border-bottom: 1px solid var(--stroke-primary-focus);
+}
+.nav__link:disabled {
+  color: var(--text-secondary);
+}
+
+/* =============== LAPTOP (1280px–1919px) =============== */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .nav__link {
+    padding: var(--space-075) var(--space-100);
+    gap: var(--space-025);
+  }
+}
+
+/* =============== TABLET (834px–1279px) =============== */
+@media (min-width: 834px) and (max-width: 1279px) {
+  .nav__link {
+    padding: var(--space-075) var(--space-100);
+    gap: var(--space-025);
+  }
+}
+
+/* =============== MOBILE (393px–833px) =============== */
+@media (min-width: 393px) and (max-width: 833px) {
+  .nav__link {
+    padding: var(--space-075) var(--space-100);
+    gap: var(--space-025);
+  }
+}
+
+/* =============== BEFORE MOBILE (до 393px) =============== */
+@media (max-width: 392px) {
+  .nav__link {
+    /* Преобразовано в rem */
+    padding: 0.75rem 1rem;
+    gap: 0.25rem;
+  }
+}
+
+/* =============== AFTER DESKTOP (от 2560px) =============== */
+@media (min-width: 2560px) {
+  .nav__link {
+    /* Преобразовано в rem */
+    padding: 0.75rem 1rem;
+    gap: 0.25rem;
+  }
+}

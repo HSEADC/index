@@ -134,6 +134,11 @@ module.exports = {
       filename: './articles.html'
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/issues.html',
+      filename: './issues.html'
+    }),
+
     // Internal pages
     // new HtmlWebpackPlugin({
     //   hash: true,
