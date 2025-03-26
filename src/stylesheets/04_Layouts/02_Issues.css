@@ -3,9 +3,13 @@
 .issues-section {
   width: 100vw;
   height: 100vh;
-  background-color: var(--dublin-100);
+  background-color: var(--background-primary);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.issues-section__headder {
+  color: var(--text-dublin-primary);
 }
