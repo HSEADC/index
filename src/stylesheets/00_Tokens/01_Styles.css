@@ -149,3 +149,25 @@
   background-color: var(--foreground-toronto-disabled);
   color: var(--text-toronto-secondary);
 }
+
+/*LINKS*/
+
+.inverted a:visited {
+  color: var(--text-inverted-primary);
+}
+
+.skeleton a:visited {
+  color: var(--text-primary);
+}
+.dublin a:visited {
+  color: var(--text-primary);
+}
+.kyoto a:visited {
+  color: var(--text-primary);
+}
+.texas a:visited {
+  color: var(--text-primary);
+}
+.toronto a:visited {
+  color: var(--text-primary);
+}

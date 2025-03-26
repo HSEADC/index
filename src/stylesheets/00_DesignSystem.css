@@ -7,7 +7,7 @@
 @import './01_Atoms/01_Button.css';
 @import './03_Organisms/03_Nav.css';
 
-@import './04_Layouts/04_HeroHomepags.css';
+@import './04_Layouts/01_HeroHomepags.css';
 
 * {
   box-sizing: border-box;
@@ -115,6 +115,10 @@ nav,
 section {
   display: block;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 ol,
