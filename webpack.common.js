@@ -107,28 +107,28 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/gallery.html',
-      filename: './gallery.html'
+      template: './src/studies.html',
+      filename: './studies.html'
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/articles.html',
-      filename: './articles.html'
+      template: './src/cases.html',
+      filename: './cases.html'
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/articles/breakdowns/breakdown.html',
-      filename: './articles/breakdowns/breakdown.html'
+      template: './src/articles/cases/case.html',
+      filename: './articles/cases/cases.html'
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/articles/reviews/review.html',
-      filename: './articles/reviews/review.html'
+      template: './src/articles/studies/study.html',
+      filename: './articles/studies/study.html'
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/articles.html',
-      filename: './articles.html'
+      template: './src/studies.html',
+      filename: './studies.html'
     }),
 
     new HtmlWebpackPlugin({
