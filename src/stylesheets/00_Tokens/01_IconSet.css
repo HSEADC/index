@@ -67,3 +67,8 @@ i.iExtraBold {
 i.iBlack {
   font-weight: 900;
 }
+
+i.iCircle::before {
+  vertical-align: top;
+  content: '\E000';
+}

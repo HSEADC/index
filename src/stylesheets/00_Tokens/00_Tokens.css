@@ -306,7 +306,7 @@ body {
 
 /*SEMANTIC*/
 :root {
-  --background-primary: var(--greys-50);
+  --background-primary: var(--white);
   --background-secondary: var(--greys-100);
   --background-ternitary: var(--greys-200);
 
@@ -316,6 +316,14 @@ body {
   --e-2-key: rgba(61, 61, 61, 0.12);
   --e-3-ambient: rgba(41, 41, 41, 0.1);
   --e-3-key: rgba(61, 61, 61, 0.14);
+
+  --radius-none: 0px;
+  --radius-x-small: var(--space-025);
+  --radius-small: var(--space-050);
+  --radius-medium: var(--space-075);
+  --radius-large: var(--space-100);
+  --radius-x-large: var(--space-150);
+  --radius-max: 9999px;
 
   --foreground-dublin-disabled: var(--dublin-200);
   --foreground-dublin-focus: var(--dublin-300);
@@ -390,3 +398,5 @@ body {
   --text-toronto-primary: var(--toronto-400);
   --text-toronto-secondary: var(--toronto-300);
 }
+
+/**/

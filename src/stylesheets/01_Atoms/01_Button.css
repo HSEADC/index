@@ -1,0 +1,29 @@
+@import '../00_Tokens/00_Tokens.css';
+
+/*STYLES*/
+.skeleton {
+  background-color: var(--foreground--primary-rest);
+  color: var(--text-primary);
+  box-shadow: 0px 1px 2px 2px var(--e-1-key);
+  box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
+  border: 0px solid var(--trasnparent);
+}
+
+.skeleton:hover {
+  background-color: var(--foreground--primary-hover);
+  box-shadow: 0px 1px 2px -2px var(--e-2-key);
+  box-shadow: 0px 0px 2px 0px var(--e-2-ambient);
+}
+
+/*SIZES*/
+.button-small {
+  padding: var(--space-075) var(--space-050);
+  border-radius: var(--radius-x-small);
+  gap: var(--space-0);
+  font-family: 'InterTight-SemiBold';
+}
+
+.button-small__middle-text {
+  padding: var(--space-0) var(--space-1);
+  text-align: center;
+}
