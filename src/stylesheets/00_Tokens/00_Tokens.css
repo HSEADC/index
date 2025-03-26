@@ -383,14 +383,14 @@ body {
   --text-dublin-primary: var(--dublin-400);
   --text-dublin-secondary: var(--dublin-300);
 
-  --text-inverted-primary: var(--base-white);
+  --text-inverted-primary: var(--white);
   --text-inverted-secondary: var(--greys-200);
 
   --text-kyoto-primary: var(--kyoto-500);
   --text-kyoto-secondary: var(--kyoto-300);
 
-  --text-primary-primary: var(--greys-950);
-  --text-primary-secondary: var(--greys-500);
+  --text-primary: var(--greys-950);
+  --text-secondary: var(--greys-500);
 
   --text-texas-primary: var(--texas-300);
   --text-texas-secondary: var(--texas-200);

@@ -44,7 +44,7 @@ export default function initEvents() {
   link.target = '_blank'
 
   const loadMoreButton = document.createElement('button')
-  loadMoreButton.classList.add('A_Button')
+  loadMoreButton.classList.add('button-medium')
   loadMoreButton.textContent = 'Предложить ивент'
 
   link.appendChild(loadMoreButton)
