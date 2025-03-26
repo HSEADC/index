@@ -1,0 +1,5 @@
+@import './stylesheets/00_DesignSystem.css';
+
+.resources-page {
+  background-color: var(--background-primary);
+}

@@ -11,7 +11,8 @@ module.exports = {
   entry: {
     index: './src/index.js',
     issues: './src/issues.js',
-    about: './src/about.js'
+    about: './src/about.js',
+    resources: './src/resources.js'
   },
   output: {
     filename: '[name].js',
