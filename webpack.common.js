@@ -156,19 +156,6 @@ module.exports = {
       filename: './about.html'
     }),
 
-    new CopyWebpackPlugin({
-      patterns: [
-        { from: 'src/data', to: 'data' },
-        // Добавляем новое правило для копирования изображений
-        {
-          from: 'src/images/datatables',
-          to: 'images/datatables',
-          // Опционально: предотвращаем логическое преобразование (для версии 6+)
-          noErrorOnMissing: true
-        }
-      ]
-    }),
-
     // Internal pages
     // new HtmlWebpackPlugin({
     //   hash: true,
@@ -190,7 +177,14 @@ module.exports = {
 
     // CopyWebpackPlugin configuration
     new CopyWebpackPlugin({
-      patterns: [{ from: 'src/data', to: 'data' }]
+      patterns: [
+        { from: 'src/data', to: 'data' },
+        {
+          from: './src/images/datatables/*',
+          to: 'images/datatables/[name][ext]',
+          noErrorOnMissing: true
+        }
+      ]
     })
   ],
   optimization: {
