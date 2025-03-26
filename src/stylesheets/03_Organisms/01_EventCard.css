@@ -1,0 +1,19 @@
+@import '../00_Tokens/00_Tokens.css';
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-0);
+}
+
+.events-card__image {
+  display: flex;
+  overflow: hidden;
+}
+
+.events-card__image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}

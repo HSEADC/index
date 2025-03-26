@@ -180,9 +180,10 @@ module.exports = {
       patterns: [
         { from: 'src/data', to: 'data' },
         {
-          from: './src/images/datatables/*',
-          to: 'images/datatables/[name][ext]',
-          noErrorOnMissing: true
+          from: 'src/images/events/*',
+          to: 'images/events/[name][ext]',
+          noErrorOnMissing: true,
+          globOptions: { dot: true }
         }
       ]
     })

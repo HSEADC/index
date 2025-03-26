@@ -5,6 +5,8 @@
 @import './01_Atoms/00_Text.css';
 @import './01_Atoms/02_Links.css';
 @import './01_Atoms/01_Button.css';
+
+@import './03_Organisms/01_EventCard.css';
 @import './03_Organisms/03_Nav.css';
 
 @import './04_Layouts/04_HeroHomepage.css';
