@@ -4,27 +4,27 @@
     "DateEnd": "2025-05-11",
     "HostedOn": "https://example.com/event1",
     "Description": "Imaginary Event #1 description.",
-    "imageLink": "event1.jpg"
+    "imageLink": "images/events/event1.jpg"
   },
   {
     "DateStart": "2025-06-01",
     "DateEnd": "2025-06-02",
     "HostedOn": "https://example.com/event2",
     "Description": "Imaginary Event #2 description.",
-    "imageLink": "event1.jpg"
+    "imageLink": "images/events/event1.jpg"
   },
   {
     "DateStart": "2025-07-15",
     "DateEnd": "2025-07-16",
     "HostedOn": "https://example.com/event3",
     "Description": "Imaginary Event #3 description.",
-    "imageLink": "event1.jpg"
+    "imageLink": "images/events/event1.jpg"
   },
   {
     "DateStart": "2025-09-01",
     "DateEnd": "2025-09-02",
     "HostedOn": "https://example.com/event4",
     "Description": "Imaginary Event #4 description.",
-    "imageLink": "event4.png"
+    "imageLink": "images/events/event1.jpg"
   }
 ]
