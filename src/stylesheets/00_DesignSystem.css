@@ -7,7 +7,8 @@
 @import './01_Atoms/01_Button.css';
 @import './03_Organisms/03_Nav.css';
 
-@import './04_Layouts/01_HeroHomepags.css';
+@import './04_Layouts/04_HeroHomepage.css';
+@import './04_Layouts/02_Issues.css';
 
 * {
   box-sizing: border-box;
