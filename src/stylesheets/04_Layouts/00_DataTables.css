@@ -1,11 +1,11 @@
 @import '../00_DesignSystem.css';
 
 .datatable {
-  padding: var(--space-200);
   background-color: var(--background-primary);
 }
 
 #main {
+  padding: var(--space-200);
   border-collapse: separate;
 }
 

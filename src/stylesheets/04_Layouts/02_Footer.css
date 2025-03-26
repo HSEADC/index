@@ -1,0 +1,11 @@
+@import '../00_Tokens/00_Tokens.css';
+
+.footer {
+  padding: var(--space-200);
+  background-color: var(--foreground-inverted-rest);
+  color: var(--text-inverted-primary);
+}
+
+.footer a:visited {
+  color: var(--text-inverted-primary);
+}
