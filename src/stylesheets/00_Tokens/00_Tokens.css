@@ -357,6 +357,11 @@ body {
   --foreground-primary-hover: var(--greys-50);
   --foreground-primary-rest: var(--white);
 
+  --foreground-secondary-disabled: var(--greys-100);
+  --foreground-secondary-focus: var(--greys-050);
+  --foreground-secondary-hover: var(--greys-050);
+  --foreground-secondary-rest: var(--greys-200);
+
   --foreground-texas-disabled: var(--texas-50);
   --foreground-texas-focus: var(--texas-100);
   --foreground-texas-hover: var(--texas-100);
@@ -428,7 +433,7 @@ body {
   --lineheight-h3: var(--space-500);
   --lineheight-h4: var(--space-350);
   --lineheight-body: var(--space-275);
-  --lineheight-label: var(--space-150);
+  --lineheight-label: var(--space-175);
 }
 
 /* Before Mobile */
@@ -503,7 +508,7 @@ body {
     --fontsize-h3: var(--space-400);
     --fontsize-h4: var(--space-300);
     --fontsize-body: var(--space-225);
-    --fontsize-label: var(--space-150);
+    --fontsize-label: var(--space-175);
 
     --lineheight-display: var(--space-2750);
     --lineheight-h1: var(--space-625);
@@ -511,7 +516,7 @@ body {
     --lineheight-h3: var(--space-400);
     --lineheight-h4: var(--space-300);
     --lineheight-body: var(--space-250);
-    --lineheight-label: var(--space-150);
+    --lineheight-label: var(--space-175);
   }
 }
 
@@ -524,7 +529,7 @@ body {
     --fontsize-h3: var(--space-500);
     --fontsize-h4: var(--space-350);
     --fontsize-body: var(--space-250);
-    --fontsize-label: var(--space-150);
+    --fontsize-label: var(--space-175);
 
     --lineheight-display: var(--space-4000);
     --lineheight-h1: var(--space-900);
@@ -532,7 +537,7 @@ body {
     --lineheight-h3: var(--space-500);
     --lineheight-h4: var(--space-350);
     --lineheight-body: var(--space-275);
-    --lineheight-label: var(--space-150);
+    --lineheight-label: var(--space-175);
   }
 }
 
@@ -545,7 +550,7 @@ body {
     --fontsize-h3: 1.7rem;
     --fontsize-h4: 1.19rem;
     --fontsize-body: 0.85rem;
-    --fontsize-label: 0.51rem;
+    --fontsize-label: 0.595rem;
 
     --lineheight-display: 13.6rem;
     --lineheight-h1: 3.06rem;
@@ -553,6 +558,6 @@ body {
     --lineheight-h3: 1.7rem;
     --lineheight-h4: 1.19rem;
     --lineheight-body: 0.93rem;
-    --lineheight-label: 0.51rem;
+    --lineheight-label: 0.595rem;
   }
 }

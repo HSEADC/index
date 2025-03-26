@@ -5,22 +5,23 @@
 }
 
 #main {
-  padding: var(--space-200);
+  padding: var(--space-0) var(--space-200);
   border-collapse: separate;
 }
 
 #main thead th {
-  background-color: #f8f9fa;
+  background-color: var(--foreground-secondary-rest);
+  font-family: 'NotoMono';
   padding: 1rem 0.75rem;
-  font-weight: 600;
   text-align: left;
 }
 
 #main tbody td {
   background-color: var(--foreground-primary);
   padding: 1rem 0.75rem;
-  border-radius: var(--radius-x-small);
+  border-radius: var(--radius-small);
   vertical-align: top;
+  background-color: var(--foreground-primary-rest);
   border: 1px solid var(--stroke-dublin-rest);
 }
 
@@ -29,14 +30,14 @@
 }
 
 .dt-input:hover {
-  box-shadow: 0px 1px 20px -2px rgb(187, 247, 194, 150);
+  box-shadow: 0px 2px 10px -5px rgb(187, 247, 194, 100);
   border: 10px solid var(--stroke-dublin-rest);
 }
 
 .dt-search {
   display: flex;
   flex-direction: column;
-  padding: var(--space-200) var(--space-200);
+  padding: var(--space-200) var(--space-200) var(--space-100) var(--space-200);
 }
 
 .dt-search > label {
@@ -45,8 +46,8 @@
 
 #dt-search-0 {
   border-radius: var(--radius-max);
-  border: 1px solid var(--stroke-primary-rest);
-  padding: var(--space-200);
+  border: 1px solid var(--stroke-dublin-rest);
+  padding: var(--space-200) var(--space-350);
   background-color: var(--foreground-primary-rest);
 }
 .dt-length {
@@ -55,7 +56,6 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--space-100) var(--space-200);
-  background-color: var(--foreground-secondary);
 }
 
 .dt-paging {
