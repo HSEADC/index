@@ -141,6 +141,16 @@ module.exports = {
       filename: './about.html'
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/events.html',
+      filename: './events.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/who.html',
+      filename: './who.html'
+    }),
+
     // Internal pages
     // new HtmlWebpackPlugin({
     //   hash: true,
