@@ -112,6 +112,21 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      template: './src/events.html',
+      filename: './events.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/resources.html',
+      filename: './resources.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/who.html',
+      filename: './who.html'
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/cases.html',
       filename: './cases.html'
     }),
@@ -139,16 +154,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/about.html',
       filename: './about.html'
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/events.html',
-      filename: './events.html'
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/who.html',
-      filename: './who.html'
     }),
 
     // Internal pages
