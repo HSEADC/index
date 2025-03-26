@@ -23,7 +23,7 @@ $(document).ready(function () {
       info: '_START_ - _END_ of _TOTAL_ entries',
       lengthMenu: 'Show _MENU_',
       search: '',
-      searchPlaceholder: 'Search...',
+      searchPlaceholder: 'Поиск',
       paginate: {
         previous: '‹',
         next: '›'
@@ -33,6 +33,7 @@ $(document).ready(function () {
   })
 
   // Add text-h4 class to dt-input
+  $('.dt-input').addClass('input-large')
   $('.dt-input').addClass('text-h3')
 
   initGlobe()
