@@ -12,7 +12,9 @@ module.exports = {
     index: './src/index.js',
     issues: './src/issues.js',
     about: './src/about.js',
-    resources: './src/resources.js'
+    resources: './src/resources.js',
+    studies: './src/studies.js',
+    cases: './src/cases.js'
   },
   output: {
     filename: '[name].js',
