@@ -170,6 +170,16 @@ body {
   src: url('../font/InterTight-SemiBold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'DexterType';
+  src: url('../font/DexterType.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NotoMono';
+  src: url('../font/NotoSansMono-VariableFont.ttf') format('truetype');
+}
+
 body {
   font-family: 'InterTight-Regular';
   background-color: var(--background-primary);

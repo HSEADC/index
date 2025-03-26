@@ -279,17 +279,17 @@ body {
   --kyoto-900: rgb(161, 19, 19);
   --kyoto-950: rgb(133, 23, 23);
 
-  --texas-50: rgb(250, 250, 235);
-  --texas-100: rgb(245, 250, 200);
-  --texas-200: rgb(240, 245, 140);
-  --texas-300: rgb(240, 240, 85);
-  --texas-400: rgb(235, 225, 40);
-  --texas-500: rgb(220, 180, 20);
-  --texas-600: rgb(195, 130, 20);
-  --texas-700: rgb(160, 90, 20);
-  --texas-800: rgb(125, 65, 20);
-  --texas-900: rgb(100, 45, 25);
-  --texas-950: rgb(60, 30, 25);
+  --taxes-50: rgb(255, 254, 234);
+  --taxes-100: rgb(255, 249, 197);
+  --taxes-200: rgb(255, 243, 133);
+  --taxes-300: rgb(255, 230, 70);
+  --taxes-400: rgb(255, 214, 27);
+  --taxes-500: rgb(255, 181, 0);
+  --taxes-600: rgb(226, 138, 0);
+  --taxes-700: rgb(187, 97, 2);
+  --taxes-800: rgb(152, 75, 8);
+  --taxes-900: rgb(124, 61, 11);
+  --taxes-950: rgb(72, 31, 0);
 
   --toronto-50: rgb(242, 249, 253);
   --toronto-100: rgb(229, 241, 249);
@@ -302,6 +302,18 @@ body {
   --toronto-800: rgb(28, 104, 112);
   --toronto-900: rgb(27, 88, 91);
   --toronto-950: rgb(23, 64, 65);
+
+  --tyre-50: rgb(255, 243, 254);
+  --tyre-100: rgb(254, 230, 255);
+  --tyre-200: rgb(255, 204, 255);
+  --tyre-300: rgb(255, 163, 253);
+  --tyre-400: rgb(255, 109, 250);
+  --tyre-500: rgb(255, 34, 255);
+  --tyre-600: rgb(227, 22, 222);
+  --tyre-700: rgb(189, 14, 182);
+  --tyre-800: rgb(154, 14, 147);
+  --tyre-900: rgb(126, 17, 118);
+  --tyre-950: rgb(85, 0, 79);
 }
 
 /*SEMANTIC*/
@@ -330,10 +342,10 @@ body {
   --foreground-dublin-hover: var(--dublin-300);
   --foreground-dublin-rest: var(--dublin-400);
 
-  --foreground-inverted-disabled: var(--greys-700);
-  --foreground-inverted-focus: var(--greys-900);
-  --foreground-inverted-hover: var(--greys-900);
-  --foreground-inverted-rest: var(--greys-950);
+  --foreground-inverted-primary-disabled: var(--greys-700);
+  --foreground-inverted-primary-focus: var(--greys-900);
+  --foreground-inverted-primary-hover: var(--greys-900);
+  --foreground-inverted-primary-rest: var(--greys-950);
 
   --foreground-kyoto-disabled: var(--kyoto-200);
   --foreground-kyoto-focus: var(--kyoto-400);

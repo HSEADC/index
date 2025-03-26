@@ -26,27 +26,27 @@
 }
 
 /*INVERTED*/
-.inverted {
-  background-color: var(--foreground-inverted-rest);
+.inverted-primary {
+  background-color: var(--foreground-inverted-primary-rest);
   color: var(--text-inverted-primary);
   box-shadow: 0px 1px 2px 2px var(--e-1-key);
   box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
   border: 0px solid var(--transparent);
 }
 
-.inverted:hover {
-  background-color: var(--foreground-inverted-hover);
+.inverted-primary:hover {
+  background-color: var(--foreground-inverted-primary-hover);
   box-shadow: 0px 1px 2px -2px var(--e-2-key);
   box-shadow: 0px 0px 2px 0px var(--e-2-ambient);
 }
 
-.inverted:focus {
+.inverted-primary:focus {
   outline: 1px solid var(--stroke-primary-focus);
   outline-offset: -1px;
 }
 
-.inverted:disabled {
-  background-color: var(--foreground-inverted-disabled);
+.inverted-primary:disabled {
+  background-color: var(--foreground-inverted-primary-disabled);
   color: var(--text-inverted-secondary);
 }
 
@@ -152,7 +152,7 @@
 
 /*LINKS*/
 
-.inverted a:visited {
+.inverted-primary a:visited {
   color: var(--text-inverted-primary);
 }
 
@@ -172,7 +172,7 @@
   color: var(--text-primary);
 }
 
-.inverted::placeholder {
+.inverted-primary::placeholder {
   color: var(--text-inverted-primary);
 }
 
