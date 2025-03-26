@@ -10,7 +10,8 @@ const path = require('path')
 module.exports = {
   entry: {
     index: './src/index.js',
-    issues: './src/issues.js'
+    issues: './src/issues.js',
+    about: './src/about.js'
   },
   output: {
     filename: '[name].js',
@@ -138,6 +139,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/issues.html',
       filename: './issues.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/about.html',
+      filename: './about.html'
     }),
 
     // Internal pages
