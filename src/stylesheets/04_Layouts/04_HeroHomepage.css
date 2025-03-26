@@ -30,4 +30,11 @@
 /*HERO EVENTS*/
 .hero-events {
   flex-grow: 2;
+  padding: var(--space-200);
+}
+
+@media (max-width: 834px) {
+  .hero-hompage {
+    flex-direction: column;
+  }
 }
