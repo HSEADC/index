@@ -23,6 +23,20 @@
   color: var(--text-secondary);
 }
 
+mark {
+  background-color: var(--foreground-tyre-rest);
+}
+
+mark a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+mark a:visited {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
 /* =============== LAPTOP (1280px–1919px) =============== */
 @media (min-width: 1280px) and (max-width: 1919px) {
   .nav__link {

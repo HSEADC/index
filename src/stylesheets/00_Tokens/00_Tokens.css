@@ -308,7 +308,7 @@ body {
   --tyre-200: rgb(255, 204, 255);
   --tyre-300: rgb(255, 163, 253);
   --tyre-400: rgb(255, 109, 250);
-  --tyre-500: rgb(255, 34, 255);
+  --tyre-500: #ff22ff;
   --tyre-600: rgb(227, 22, 222);
   --tyre-700: rgb(189, 14, 182);
   --tyre-800: rgb(154, 14, 147);
@@ -372,6 +372,11 @@ body {
   --foreground-toronto-hover: var(--toronto-300);
   --foreground-toronto-rest: var(--toronto-400);
 
+  --foreground-tyre-disabled: var(--tyre-200);
+  --foreground-tyre-focus: var(--tyre-300);
+  --foreground-tyre-hover: var(--tyre-300);
+  --foreground-tyre-rest: var(--tyre-500);
+
   --stroke-dublin-disabled: var(--dublin-200);
   --stroke-dublin-focus: var(--dublin-600);
   --stroke-dublin-hover: var(--dublin-300);
@@ -414,6 +419,9 @@ body {
 
   --text-toronto-primary: var(--toronto-400);
   --text-toronto-secondary: var(--toronto-300);
+
+  --text-tyre-primary: var(--tyre-500);
+  --text-tyre-secondary: var(--tyre-200);
 }
 
 /* TEXTS */
