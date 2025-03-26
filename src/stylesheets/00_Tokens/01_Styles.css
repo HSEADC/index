@@ -171,3 +171,23 @@
 .toronto a:visited {
   color: var(--text-primary);
 }
+
+.inverted::placeholder {
+  color: var(--text-inverted-primary);
+}
+
+.skeleton::placeholder {
+  color: var(--text-primary);
+}
+.dublin::placeholder {
+  color: var(--text-primary);
+}
+.kyoto::placeholder {
+  color: var(--text-primary);
+}
+.texas::placeholder {
+  color: var(--text-primary);
+}
+.toronto::placeholder {
+  color: var(--text-primary);
+}

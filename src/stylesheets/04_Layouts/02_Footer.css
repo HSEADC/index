@@ -10,6 +10,18 @@
   color: var(--text-inverted-primary);
 }
 
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-100);
+}
+
+.footer__form {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-100);
+}
+
 .footer-nav__wrapper {
   display: flex;
   flex-direction: column;
