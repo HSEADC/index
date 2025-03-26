@@ -16,23 +16,25 @@ export default function initEvents() {
 
   upcomingEvents.forEach((event) => {
     const card = document.createElement('div')
-    card.classList.add('O_EventsCard')
+    card.classList.add('event-card')
     card.innerHTML = `
-      <div class="M_EventsHeadder">
-        <div class="W_EventsDates">
+      <div class="event-card__top">
+        <div class="event-card__dates">
           <div>${event.DateStart}</div>
           <div>— ${event.DateEnd}</div>
         </div>
-        <div class="A_Body">
+        <div class="text-body">
           <a href="${event.HostedOn}" target="_blank">
             Visit Link
           </a>
         </div>
       </div>
-        <div class="A_EventsImage">
+        <div class="events-card__image">
           <img src="${event.imageLink}" alt="Event Image">
         </div>
-    <div class="A_Body">${event.Description}</div>
+        <div class="events-card__description>
+    <p class="text-body">${event.Description}</p>
+    </div>
     `
     container.appendChild(card)
   })
