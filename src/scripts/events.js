@@ -1,6 +1,32 @@
 import eventsData from '../data/events.json'
 
 let cachedContainer = null
+let originalHeroStyles = null
+
+function applyMobileStyles() {
+  const heroHomepage = document.querySelector('.hero-homepage')
+  if (heroHomepage) {
+    // Save original styles before modifying
+    originalHeroStyles = {
+      display: heroHomepage.style.display,
+      gridTemplateColumns: heroHomepage.style.gridTemplateColumns
+    }
+
+    // Apply mobile styles
+    heroHomepage.style.display = 'grid'
+    heroHomepage.style.gridTemplateColumns = '1fr'
+  }
+}
+
+function restoreOriginalStyles() {
+  const heroHomepage = document.querySelector('.hero-homepage')
+  if (heroHomepage && originalHeroStyles) {
+    // Restore original styles
+    heroHomepage.style.display = originalHeroStyles.display
+    heroHomepage.style.gridTemplateColumns =
+      originalHeroStyles.gridTemplateColumns
+  }
+}
 
 function renderEvents(container) {
   if (container.children.length > 0) return
@@ -69,6 +95,9 @@ function handleEventsVisibility() {
     if (container) {
       renderEvents(container)
     }
+
+    // Restore original hero styles
+    restoreOriginalStyles()
   } else {
     const container = document.querySelector('.hero-events')
     if (container) {
@@ -80,6 +109,9 @@ function handleEventsVisibility() {
       }
       container.remove()
     }
+
+    // Apply mobile styles to hero-homepage
+    applyMobileStyles()
   }
 }
 
