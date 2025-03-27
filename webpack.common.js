@@ -187,6 +187,12 @@ module.exports = {
           to: 'images/events/[name][ext]',
           noErrorOnMissing: true,
           globOptions: { dot: true }
+        },
+        {
+          from: 'src/images/*/**',
+          to: 'images/events/[name][ext]',
+          noErrorOnMissing: true,
+          globOptions: { dot: true }
         }
       ]
     })

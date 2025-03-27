@@ -24,7 +24,7 @@
 }
 
 mark {
-  background-color: var(--foreground-tyre-rest);
+  color: var(--text-primary);
 }
 
 mark a {

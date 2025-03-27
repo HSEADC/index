@@ -2,13 +2,24 @@
 
 .about-section {
   width: 100%;
+  flex-grow: 1;
   display: flex;
-  justify-content: center;
-  padding: 2rem 0;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: var(--space-200);
 }
 
 .about-section__container {
+  display: flex;
   width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-100);
+}
+
+.about-section__headder {
+  display: flex;
+  flex-direction: column;
 }
 
 .about-section__content {
