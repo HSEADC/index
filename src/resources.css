@@ -1,5 +1,9 @@
 @import './stylesheets/00_DesignSystem.css';
 
+#defaultCanvas0 {
+  display: none;
+}
+
 .resources-page {
   background-color: var(--background-primary);
 }
