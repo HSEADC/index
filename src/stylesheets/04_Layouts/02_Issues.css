@@ -13,3 +13,20 @@
 .issues-section__headder {
   color: var(--text-dublin-primary);
 }
+
+.issues-section-upcoming {
+  flex-direction: row;
+}
+
+.issues-section__description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.issues-section-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--space-100);
+}
