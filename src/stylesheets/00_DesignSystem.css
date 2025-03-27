@@ -11,7 +11,7 @@
 
 @import './04_Layouts/01_HeroHomepage.css';
 @import './04_Layouts/02_Footer.css';
-
+@import './04_Layouts/03_About.css';
 @import './04_Layouts/02_Issues.css';
 
 * {

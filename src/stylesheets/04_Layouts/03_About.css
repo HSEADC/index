@@ -1,0 +1,22 @@
+@import '../00_Tokens/00_Tokens.css';
+
+.about-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.about-section__container {
+  width: 40%;
+}
+
+.about-section__content {
+}
+
+@media (max-width: 834px) {
+  .about-section__container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}

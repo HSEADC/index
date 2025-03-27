@@ -330,7 +330,7 @@ body {
   --e-3-key: rgba(61, 61, 61, 0.14);
 
   --radius-none: 0px;
-  --radius-x-small: var(--space-025);
+  --radius-x-small: var(--space-1);
   --radius-small: var(--space-050);
   --radius-medium: var(--space-075);
   --radius-large: var(--space-100);

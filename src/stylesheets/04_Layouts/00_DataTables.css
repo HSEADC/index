@@ -1,4 +1,4 @@
-@import '../00_DesignSystem.css';
+@import '../00_Tokens/00_Tokens.css';
 
 .datatable {
   background-color: var(--background-primary);
