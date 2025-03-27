@@ -24,7 +24,7 @@
     <section class="about-section">
       <div class="about-section__headder">
         <h4 class="text-body mono">Навигатор по арт-институции</h4>
-        <h4 class="text-body mono">О проекте</h4>
+        <img src="../src/images/events/event1.jpg" alt="efe">
       </div>
       
 
@@ -41,7 +41,7 @@
           </p>
 
           <p class="text-body mono">
-            <mark >
+            <mark class="kyoto">
               Сделать научные публикации более публичными
             </mark>
             Существует гэп между работами людей в академии и практикующими
@@ -49,7 +49,7 @@
           </p>
 
           <p class="text-body">
-            <mark class="mono">
+            <mark class="kyoto">
               Создать сообщество людей неравнодушных к хорошему дизайну и
               искусству</mark
             >. Сейф-спейс для дизайн-нердов.
@@ -86,5 +86,38 @@
       </div>
     </footer>
   </div>
+
+
+  <script>
+    function setup() {
+      let canvas = createCanvas(windowWidth, windowHeight);
+      canvas.parent('p5-sketch');
+      noStroke();
+    }
+
+    function draw() {
+      background(255, 255, 255, 10);
+      
+      if (mouseIsPressed) {
+        fill(200, 100, 150, 100);
+      } else {
+        fill(100, 150, 200, 100);
+      }
+      
+      // Draw circles at mouse position with random size
+      circle(mouseX, mouseY, random(20, 100));
+      
+      // Add some random floating circles
+      if (frameCount % 10 === 0) {
+        fill(random(255), random(255), random(255), 50);
+        circle(random(width), random(height), random(10, 50));
+      }
+    }
+
+    function windowResized() {
+      resizeCanvas(windowWidth, windowHeight);
+    }
+  </script>
+
   </body>
 </html>

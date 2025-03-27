@@ -20,6 +20,7 @@
 .about-section__headder {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .about-section__content {

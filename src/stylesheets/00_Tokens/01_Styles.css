@@ -1,27 +1,51 @@
 /*STYLES*/
 
 /*SKELETON*/
-.skeleton {
-  background-color: var(--foreground--primary-rest);
+.skeleton-primary {
+  background-color: var(--foreground-primary-rest);
   color: var(--text-primary);
   box-shadow: 0px 1px 2px 2px var(--e-1-key);
   box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
-  border: 0px solid var(--trasnparent);
+  border: 0px solid var(--transparent);
 }
 
-.skeleton:hover {
+.skeleton-primary:hover {
   background-color: var(--foreground-primary-hover);
   box-shadow: 0px 1px 2px -2px var(--e-2-key);
   box-shadow: 0px 0px 2px 0px var(--e-2-ambient);
 }
 
-.skeleton:focus {
+.skeleton-primary:focus {
   outline: 1px solid var(--stroke-primary);
   outline-offset: -1px;
 }
 
-.skeleton:disabled {
+.skeleton-primary:disabled {
   background-color: var(--foreground-primary-disabled);
+  color: var(--text-secondary);
+}
+
+.skeleton-secondary {
+  background-color: var(--foreground-secondary-rest);
+  color: var(--text-secondary);
+  box-shadow: 0px 1px 2px 2px var(--e-1-key);
+  box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
+  border: 0px solid var(--transparent);
+}
+
+.skeleton-secondary:hover {
+  background-color: var(--foreground-secondary-hover);
+  box-shadow: 0px 1px 2px -2px var(--e-2-key);
+  box-shadow: 0px 0px 2px 0px var(--e-2-ambient);
+}
+
+.skeleton-secondary:focus {
+  outline: 1px solid var(--stroke-secondary);
+  outline-offset: -1px;
+}
+
+.skeleton-secondary:disabled {
+  background-color: var(--foreground-secondary-disabled);
   color: var(--text-secondary);
 }
 
@@ -47,6 +71,30 @@
 
 .inverted-primary:disabled {
   background-color: var(--foreground-inverted-primary-disabled);
+  color: var(--text-inverted-secondary);
+}
+
+.inverted-secondary {
+  background-color: var(--foreground-inverted-secondary-rest);
+  color: var(--text-inverted-secondary);
+  box-shadow: 0px 1px 2px 2px var(--e-1-key);
+  box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
+  border: 0px solid var(--transparent);
+}
+
+.inverted-secondary:hover {
+  background-color: var(--foreground-inverted-secondary-hover);
+  box-shadow: 0px 1px 2px -2px var(--e-2-key);
+  box-shadow: 0px 0px 2px 0px var(--e-2-ambient);
+}
+
+.inverted-secondary:focus {
+  outline: 1px solid var(--stroke-secondary-focus);
+  outline-offset: -1px;
+}
+
+.inverted-secondary:disabled {
+  background-color: var(--foreground-inverted-secondary-disabled);
   color: var(--text-inverted-secondary);
 }
 
@@ -81,7 +129,7 @@
   color: var(--text-primary);
   box-shadow: 0px 1px 2px 2px var(--e-1-key);
   box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
-  border: 0px solid var(--trasnparent);
+  border: 0px solid var(--transparent);
 }
 
 .kyoto:hover {
@@ -156,18 +204,26 @@
   color: var(--text-inverted-primary);
 }
 
-.skeleton a:visited {
+.skeleton-primary a:visited {
   color: var(--text-primary);
 }
+
+.skeleton-secondary a:visited {
+  color: var(--text-secondary);
+}
+
 .dublin a:visited {
   color: var(--text-primary);
 }
+
 .kyoto a:visited {
   color: var(--text-primary);
 }
+
 .texas a:visited {
   color: var(--text-primary);
 }
+
 .toronto a:visited {
   color: var(--text-primary);
 }
@@ -176,18 +232,26 @@
   color: var(--text-inverted-primary);
 }
 
-.skeleton::placeholder {
+.skeleton-primary::placeholder {
   color: var(--text-primary);
 }
+
+.skeleton-secondary::placeholder {
+  color: var(--text-secondary);
+}
+
 .dublin::placeholder {
   color: var(--text-primary);
 }
+
 .kyoto::placeholder {
   color: var(--text-primary);
 }
+
 .texas::placeholder {
   color: var(--text-primary);
 }
+
 .toronto::placeholder {
   color: var(--text-primary);
 }
