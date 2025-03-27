@@ -182,5 +182,6 @@ body {
 
 body {
   font-family: 'InterTight-Regular';
+  font-feature-settings: 'ss01' on;
   background-color: var(--background-primary);
 }

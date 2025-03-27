@@ -24,6 +24,7 @@
 }
 
 .about-section__content {
+  display: flex;
 }
 
 @media (max-width: 834px) {
