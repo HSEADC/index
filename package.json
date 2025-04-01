@@ -43,6 +43,9 @@
     "datatables.net-dt": "^2.2.2",
     "jquery": "^3.7.1",
     "p5": "^1.11.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.4.1",
     "three": "^0.174.0",
     "typeit": "^8.8.7"
   }
